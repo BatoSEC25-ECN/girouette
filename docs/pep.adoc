@@ -1,0 +1,91 @@
+= Girouette / annémomètre
+Guillaume de Maricourt, Kadwalon Lobet
+:toc:
+
+== Intérêt et description du produit
+Le produit fini attendu est une girouette à ultrason. Ce capteur, essentiel pour le système de navigation du bateau, permet d'ajuster les voiles et le cap en fonction du vent. +
+Sans cette information le bateau ne peut-être en mesure de se déplacer: la force du vent et son angle d'incidence dans les voiles détermnine.
+
+- La vitesse du bateau.
+- Le faseyement.
+- L'angle de gîte.
+
+== Description
+=== Objectifs inhérents à la girouettes
+Les contraintes évidentes qui s'appliquent à la girouette sont listées ci-dessous. Celles-ci découlent directement de l'utilisation d'un tel capteur.
+
+- Mesurer l'angle et la vitesse du vent (en un point donné, sur le bateau).
+- Transmettre les composantes du vent (force/direction).
+- Assurer une transmission en définissant/utilisant une API. Cette API devra reprendre la même que celle utilisée par la girouette industrielle (à des fins d'interopérabilité).
+- Utiliser un réseau de communication filaire (I2C, UART, )
+
+IMPORTANT: Cette interopérabilité est un élément clef. Cela permettra aux groupes qui dépendent de la girouette de pouvoir utiliser celle qui est fournie avant que la notre ne soit au point.
+
+=== Objectifs dûs aux contraintes d'utilisation
+Des contraintes extérieures viennet s'appliquer au capteur de par son utilisation sur une maquette de voilier (espace, poids, énergie).
+
+- Utilisation via un réseau de communication non filaire (bluetooth, zigbee, wifi...).
+- Autonomie en énergie (pour une durée donnée, avec ou sans panneau solaire).
+
+== Fonctionnalités et étapes de réalisation
+
+=== Fonctionnalités
+Les fonctionnalités de la girouette sont listées ci-dessous. La priorité actuelle est susceptible de changer et ne définit pas nécessairement
+
+[cols="4*", options="header", cols="3,4,1,2"]
+.Fonctionnalités de la girouette
+|==================================================================================================================================================================================
+| Fonctionnalité                                        | Description                                                                                  | Priorité | Type d'objectif
+| Transmettre les données de la girouette vers un micro | Réaliser un driver pour la girouette industrielle (ne pas bloquer les autres groupes)        | Haute    | Primaire
+| Mesurer la direction du vent                          | Mesurer les deux composantes vitesse (x et y) du vent et en déduire le vecteur d'orientation | Haute    | Primaire
+| Transmettre la direction du vent (relative au bateau) | Transmettre la direction du vent (relative au bateau)                                        | Moyenne  | Primaire
+| Transmettre la direction du vent (absolue)            | Transmettre la direction du vent (absolue par rapport aux points cardinaux)                  | Faible   | Secondaire
+|==================================================================================================================================================================================
+
+=== Étapes de réalisation
+
+La liste ci-dessous donne toutes les étapes de réalisation qui sont nécessaires et/ou possibles selon les objectifs que nous nous sommes fixés. +
+Nous n'attribuons ici aucun points concernant la difficulté ou le temps de réalisation. Le numéro d'étape est une simple référence qui permet de mettre en évidence
+les dépendances entre les différentes tâches.
+
+[cols="4*", options="header", cols="1,5,10,2"]
+.Étapes du sous-projet
+|===============================================================================================================================================================================================================================================================
+| N° | Étape                                             | Description                                                                                                                                                                             | Dépendances
+| 1  | Créer une référence théorique                     | Créer une référence théorique du fonctionnement d'une telle girouette ainsi que des modèles mathématiques (associés au placement des capteurs)                                          | NA
+| 2  | Étudier la forme du châssis                       | Étudier la forme du châssis et le placement des capteurs. Analyser le flux d'air, par simulation, afin de voir si certaines formes génèrent plus ou moins de perturbations              | NA
+| 3  | Sélectionner une forme de châssis                 | Étudier les perturbations pour chaque forme (négligeable ou non) et sélectionner une forme définitive pour le chassis                                                                   | 2
+| 4  | Créer un banc de test/calibration                 | Établir un protocole de test ainsi qu'un banc de test et de calibration. Basé sur une mesure externe fiable, un "générateur constant d'air" un changement de l'angle d'incidence précis | NA
+| 5  | Mesurer l'incidence de l'orientation              | Mesurer la précision de la girouette industrielle quand le plan de mesure de la girouette n'est pas parallèle au plan formé par le flux d'air                                           | 4
+| 6  | Analyser les données (incidence de l'orientation) | Analyse des données de l'orientation. Déterminer si il existe un lien mathématique entre l'orientation réelle du vent, l'orientation de la girouette et la valeur mesurée               | 5
+| 7  | Développer un driver pour la girouette            | Réaliser un driver de la girouette industrielle                                                                                                                                         | NA
+| 8  | Mesurer une composante de l'orientation du vent   | Réaliser un POC qui permette de mesurer une des composantes (x ou y) du vent selon la forme de châssis choisie                                                                          | 3
+| 9  | Mesurer la direction du vent                      | Réaliser un POC qui permette de mesurer les deux composantes (x et y) du vent                                                                                                           | 8
+| 10 | Établir une communication sans fil                | Établir une communication sans fil avec un micro externe                                                                                                                                | NA
+| 11 | Déterminer la position absolue de la girouette    | Déterminer la position de la girouette (absolue par rapport aux points cardinaux)                                                                                                       | NA
+| 12 | Réaliser le PCB                                   | Réaliser la version finale du PCB de la girouette                                                                                                                                       | 9-10-11
+| 13 | Réaliser le chassis                               | Réaliser la version finale du chassis de la girouette                                                                                                                                   | 4-12
+| 14 | Direction du vent (relative au bateau)            | Déterminer la direction du vent (relative au bateau)                                                                                                                                    | 9-12-13
+| 15 | Direction du vent (absolue)                       | Déterminer la direction du vent (absolue par rapport aux points cardinaux)                                                                                                              | 9-12-13-11
+| 16 | Transfert des données (filaire)                   | Transférer des données selon le format de l'API via un protocole filaire                                                                                                                | NA (13?)
+| 17 | Transfert des données (sans fil)                  | Transférer des données selon le format de l'API via un protocole non-filaire                                                                                                            | NA (13?)
+| 18 | Correction de la mesure (active)                  | Stabilisation mécanique active (ou passive) de la girouette                                                                                                                             | 6
+| 19 | Mesurer de l'inclinaison de la girouette          | Réaliser une mesure de l'inclinaison de la girouette pour chaque mesure d'orientation du vent                                                                                           | 6
+| 20 | Correction de la mesure (passsive)                | Correction algorithmique des données mesurées selon l'inclinaison de la girouette avant transmission                                                                                    | 6
+|===============================================================================================================================================================================================================================================================
+
+
+== Exigences opérationnelles et plan de validation associé
+Nous listons ici les exigences opérationnelles qui permettront de déterminer ou non la réussite du projet. +
+Pour chaque exigence un critère/plan de validation est associé.
+
+[cols="3*", options="header", , cols="1,1,2"]
+.Exigences et plan de validation
+|=========================================================================================================================================================================================================================
+| Fonctionnalité                 | Contrainte (exigence)                           | Validation
+| Transmission des données       | Transmission sans fil                           | Vérifier la redondance des données envoyées puis réceptionnées par un microcontrôleur externe (via protocole sans fil sélectionné)
+| Mesure de la direction du vent | Précision de ± 1 degré                          | Comparaison des mesures de la girouette avec une girouette de référence dans un milieu neutre sur la mesure
+| Mesure de la force du vent     | Précision de ± 1 m/s                            | Comparaison des mesures de la girouette avec un anémomètre de référence dans un milieu neutre sur la mesure
+| Résistance mécanique           | Conditions maritimes (eau salée, humidité, etc) | Soumettre la girouette à des conditions similaires à l'environnement maritime et contrôler son fonctionnement.
+| Consommation énergetique       | Autonomie minimale de 6 mois                    | Faire fonctionner la girouette en continu et mesurer la durée de fonctionnement (calcul sur une durée plus courte puis extrapolation)
+|=========================================================================================================================================================================================================================
