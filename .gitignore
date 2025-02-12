@@ -4,6 +4,7 @@
 # Drawio
 *.drawio.bkp
 img/
+*-backups
 
 ########################################################
 # C .gitignore guidelines
