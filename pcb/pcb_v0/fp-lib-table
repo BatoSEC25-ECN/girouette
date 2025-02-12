@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Seeduino")(type "KiCad")(uri "${KIPRJMOD}/library/Seeed Studio XIAO Series Library")(options "")(descr ""))
+  (lib (name "MAX3221EIPWR")(type "KiCad")(uri "${KIPRJMOD}/library/MAX3221EIPWR/footprints.pretty")(options "")(descr ""))
+  (lib (name "LM324AN")(type "KiCad")(uri "${KIPRJMOD}/library/LM324AN/footprints.pretty")(options "")(descr ""))
+  (lib (name "LM555CMX-NOPB")(type "KiCad")(uri "${KIPRJMOD}/library/LM555CMX-NOPB/footprints.pretty")(options "")(descr ""))
+)
