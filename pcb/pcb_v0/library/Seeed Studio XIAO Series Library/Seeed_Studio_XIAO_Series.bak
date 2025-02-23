@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20231120)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(symbol "XIAO-ESP32-C3-DIP"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52,7 +52,7 @@
 		(symbol "XIAO-ESP32-C3-DIP_1_0"
 			(polyline
 				(pts
-					(xy 0 0) (xy 33.02 0)
+					(xy 0 -27.94) (xy 0 -13.97)
 				)
 				(stroke
 					(width 0.1524)
@@ -64,7 +64,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy -1.27 -2.54)
+					(xy 0 -25.4) (xy -1.27 -25.4)
 				)
 				(stroke
 					(width 0.1524)
@@ -76,7 +76,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 0 0)
+					(xy 0 -21.59) (xy -1.27 -21.59)
 				)
 				(stroke
 					(width 0.1524)
@@ -88,43 +88,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -6.35) (xy -1.27 -6.35)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -6.35) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -10.16) (xy -1.27 -10.16)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -10.16) (xy 0 -6.35)
+					(xy 0 -17.78) (xy -1.27 -17.78)
 				)
 				(stroke
 					(width 0.1524)
@@ -160,7 +124,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -17.78) (xy -1.27 -17.78)
+					(xy 0 -10.16) (xy -1.27 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -172,7 +136,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -21.59) (xy -1.27 -21.59)
+					(xy 0 -10.16) (xy 0 -6.35)
 				)
 				(stroke
 					(width 0.1524)
@@ -184,7 +148,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -25.4) (xy -1.27 -25.4)
+					(xy 0 -6.35) (xy -1.27 -6.35)
 				)
 				(stroke
 					(width 0.1524)
@@ -196,7 +160,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -27.94) (xy 0 -13.97)
+					(xy 0 -6.35) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -208,7 +172,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 0) (xy 33.02 -2.54)
+					(xy 0 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -220,7 +184,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -2.54) (xy 33.02 -6.35)
+					(xy 0 -2.54) (xy 0 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -232,19 +196,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -6.35) (xy 33.02 -10.16)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -10.16) (xy 33.02 -27.94)
+					(xy 0 0) (xy 33.02 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -268,7 +220,7 @@
 			)
 			(polyline
 				(pts
-					(xy 34.29 -2.54) (xy 33.02 -2.54)
+					(xy 33.02 -10.16) (xy 33.02 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -280,7 +232,7 @@
 			)
 			(polyline
 				(pts
-					(xy 34.29 -6.35) (xy 33.02 -6.35)
+					(xy 33.02 -6.35) (xy 33.02 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -292,7 +244,7 @@
 			)
 			(polyline
 				(pts
-					(xy 34.29 -10.16) (xy 33.02 -10.16)
+					(xy 33.02 -2.54) (xy 33.02 -6.35)
 				)
 				(stroke
 					(width 0.1524)
@@ -304,7 +256,7 @@
 			)
 			(polyline
 				(pts
-					(xy 34.29 -13.97) (xy 33.02 -13.97)
+					(xy 33.02 0) (xy 33.02 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -316,7 +268,7 @@
 			)
 			(polyline
 				(pts
-					(xy 34.29 -17.78) (xy 33.02 -17.78)
+					(xy 34.29 -25.4) (xy 33.02 -25.4)
 				)
 				(stroke
 					(width 0.1524)
@@ -340,7 +292,7 @@
 			)
 			(polyline
 				(pts
-					(xy 34.29 -25.4) (xy 33.02 -25.4)
+					(xy 34.29 -17.78) (xy 33.02 -17.78)
 				)
 				(stroke
 					(width 0.1524)
@@ -350,7 +302,55 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(polyline
+				(pts
+					(xy 34.29 -13.97) (xy 33.02 -13.97)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 34.29 -10.16) (xy 33.02 -10.16)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 34.29 -6.35) (xy 33.02 -6.35)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 34.29 -2.54) (xy 33.02 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "GPIO2/A0/D0"
@@ -368,187 +368,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name "GPIO3/A1/D1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "GPIO4/A2/D2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -13.97 0)
-				(length 2.54)
-				(name "GPIO5/A3/D3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -17.78 0)
-				(length 2.54)
-				(name "GPIO6/D4/SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -21.59 0)
-				(length 2.54)
-				(name "GPIO7/D5/SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -25.4 0)
-				(length 2.54)
-				(name "GPIO21/D6/TX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 35.56 -2.54 180)
-				(length 2.54)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 35.56 -6.35 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 35.56 -10.16 180)
-				(length 2.54)
-				(name "VCC_3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 35.56 -13.97 180)
-				(length 2.54)
-				(name "GPIO10/D10/MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
+			(pin passive line
 				(at 35.56 -17.78 180)
 				(length 2.54)
 				(name "GPIO9/D9/MISO"
@@ -566,17 +386,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 35.56 -21.59 180)
+			(pin passive line
+				(at 35.56 -13.97 180)
 				(length 2.54)
-				(name "GPIO8/D8/SCK"
+				(name "GPIO10/D10/MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -584,7 +404,169 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
+				(at 35.56 -10.16 180)
+				(length 2.54)
+				(name "VCC_3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -6.35 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -2.54 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -6.35 0)
+				(length 2.54)
+				(name "GPIO3/A1/D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "GPIO4/A2/D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -13.97 0)
+				(length 2.54)
+				(name "GPIO5/A3/D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "GPIO6/D4/SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -21.59 0)
+				(length 2.54)
+				(name "GPIO7/D5/SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "GPIO21/D6/TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 35.56 -25.4 180)
 				(length 2.54)
 				(name "GPIO20/D7/RX"
@@ -602,8 +584,25 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 35.56 -21.59 180)
+				(length 2.54)
+				(name "GPIO8/D8/SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-ESP32-C3-SMD"
 		(pin_names
@@ -688,6 +687,186 @@
 				)
 			)
 			(pin passive line
+				(at 20.32 -3.81 180)
+				(length 2.54)
+				(name "GPIO9_D9_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "GPIO10_D10_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 3.81 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 11.43 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -21.59 90)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -21.59 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 22.86 270)
+				(length 2.54)
+				(name "MTDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 22.86 270)
+				(length 2.54)
+				(name "MTDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 22.86 270)
+				(length 2.54)
+				(name "CHIP_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -21.59 7.62 0)
 				(length 2.54)
 				(name "GPIO3_A1_D1"
@@ -698,6 +877,60 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 22.86 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 22.86 270)
+				(length 2.54)
+				(name "MTMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 22.86 270)
+				(length 2.54)
+				(name "MTCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -796,232 +1029,16 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 22.86 270)
+				(at 20.32 -11.43 180)
 				(length 2.54)
-				(name "MTDI"
+				(name "GPIO20_D7_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -6.35 22.86 270)
-				(length 2.54)
-				(name "MTDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 22.86 270)
-				(length 2.54)
-				(name "CHIP_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -21.59 90)
-				(length 2.54)
-				(name "BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 1.27 22.86 270)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -21.59 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 22.86 270)
-				(length 2.54)
-				(name "MTMS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 22.86 270)
-				(length 2.54)
-				(name "MTCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 11.43 180)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 0 180)
-				(length 2.54)
-				(name "GPIO10_D10_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -3.81 180)
-				(length 2.54)
-				(name "GPIO9_D9_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1047,26 +1064,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -11.43 180)
-				(length 2.54)
-				(name "GPIO20_D7_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-ESP32-C6-SMD"
 		(pin_names
@@ -1151,6 +1149,186 @@
 				)
 			)
 			(pin passive line
+				(at 21.59 -3.81 180)
+				(length 2.54)
+				(name "GPIO20_D9_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 0 180)
+				(length 2.54)
+				(name "GPIO18_D10_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 3.81 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 11.43 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -21.59 90)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -21.59 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 22.86 270)
+				(length 2.54)
+				(name "MTDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 22.86 270)
+				(length 2.54)
+				(name "MTDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 22.86 270)
+				(length 2.54)
+				(name "CHIP_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -21.59 7.62 0)
 				(length 2.54)
 				(name "GPIO1_A1_D1"
@@ -1161,6 +1339,96 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 22.86 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 22.86 270)
+				(length 2.54)
+				(name "MTMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 22.86 270)
+				(length 2.54)
+				(name "MTCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 22.86 270)
+				(length 2.54)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 22.86 270)
+				(length 2.54)
+				(name "3V3_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1259,268 +1527,16 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 22.86 270)
+				(at 21.59 -11.43 180)
 				(length 2.54)
-				(name "MTDI"
+				(name "GPIO17_D7_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 22.86 270)
-				(length 2.54)
-				(name "MTDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 22.86 270)
-				(length 2.54)
-				(name "CHIP_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -21.59 90)
-				(length 2.54)
-				(name "BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -1.27 22.86 270)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 22.86 270)
-				(length 2.54)
-				(name "MTMS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -21.59 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 22.86 270)
-				(length 2.54)
-				(name "MTCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 22.86 270)
-				(length 2.54)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 22.86 270)
-				(length 2.54)
-				(name "3V3_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 11.43 180)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 0 180)
-				(length 2.54)
-				(name "GPIO18_D10_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 -3.81 180)
-				(length 2.54)
-				(name "GPIO20_D9_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1546,26 +1562,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 21.59 -11.43 180)
-				(length 2.54)
-				(name "GPIO17_D7_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-ESP32-S3-DIP"
 		(exclude_from_sim no)
@@ -1617,7 +1614,7 @@
 		(symbol "XIAO-ESP32-S3-DIP_1_0"
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 41.91 -2.54)
+					(xy 0 -30.48) (xy 0 -16.51)
 				)
 				(stroke
 					(width 0.1524)
@@ -1629,7 +1626,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy -1.27 -5.08)
+					(xy 0 -27.94) (xy -1.27 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -1641,7 +1638,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -2.54)
+					(xy 0 -24.13) (xy -1.27 -24.13)
 				)
 				(stroke
 					(width 0.1524)
@@ -1653,43 +1650,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -8.89) (xy -1.27 -8.89)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -8.89) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -12.7) (xy -1.27 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -12.7) (xy 0 -8.89)
+					(xy 0 -20.32) (xy -1.27 -20.32)
 				)
 				(stroke
 					(width 0.1524)
@@ -1725,7 +1686,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -20.32) (xy -1.27 -20.32)
+					(xy 0 -12.7) (xy -1.27 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -1737,7 +1698,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -24.13) (xy -1.27 -24.13)
+					(xy 0 -12.7) (xy 0 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -1749,7 +1710,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -27.94) (xy -1.27 -27.94)
+					(xy 0 -8.89) (xy -1.27 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -1761,7 +1722,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -30.48) (xy 0 -16.51)
+					(xy 0 -8.89) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -1773,7 +1734,7 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -2.54) (xy 41.91 -5.08)
+					(xy 0 -5.08) (xy -1.27 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -1785,7 +1746,7 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -5.08) (xy 41.91 -8.89)
+					(xy 0 -5.08) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -1797,19 +1758,7 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -8.89) (xy 41.91 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 41.91 -12.7) (xy 41.91 -30.48)
+					(xy 0 -2.54) (xy 41.91 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -1833,7 +1782,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -5.08) (xy 41.91 -5.08)
+					(xy 41.91 -12.7) (xy 41.91 -30.48)
 				)
 				(stroke
 					(width 0.1524)
@@ -1845,7 +1794,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -8.89) (xy 41.91 -8.89)
+					(xy 41.91 -8.89) (xy 41.91 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -1857,7 +1806,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -12.7) (xy 41.91 -12.7)
+					(xy 41.91 -5.08) (xy 41.91 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -1869,7 +1818,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -16.51) (xy 41.91 -16.51)
+					(xy 41.91 -2.54) (xy 41.91 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -1881,7 +1830,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -20.32) (xy 41.91 -20.32)
+					(xy 43.18 -27.94) (xy 41.91 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -1905,7 +1854,55 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -27.94) (xy 41.91 -27.94)
+					(xy 43.18 -20.32) (xy 41.91 -20.32)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43.18 -16.51) (xy 41.91 -16.51)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43.18 -12.7) (xy 41.91 -12.7)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43.18 -8.89) (xy 41.91 -8.89)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43.18 -5.08) (xy 41.91 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -1926,6 +1923,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 44.45 -20.32 180)
+				(length 2.54)
+				(name "GPIO8/D9/A9/MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 44.45 -16.51 180)
+				(length 2.54)
+				(name "GPIO9/D10/A10/MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 44.45 -12.7 180)
+				(length 2.54)
+				(name "VCC_3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 44.45 -8.89 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 44.45 -5.08 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2042,88 +2129,16 @@
 				)
 			)
 			(pin passive line
-				(at 44.45 -5.08 180)
+				(at 44.45 -27.94 180)
 				(length 2.54)
-				(name "VBUS"
+				(name "U0RXD/D7/RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 44.45 -8.89 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 44.45 -12.7 180)
-				(length 2.54)
-				(name "VCC_3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 44.45 -16.51 180)
-				(length 2.54)
-				(name "GPIO9/D10/A10/MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 44.45 -20.32 180)
-				(length 2.54)
-				(name "GPIO8/D9/A9/MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2149,26 +2164,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 44.45 -27.94 180)
-				(length 2.54)
-				(name "U0RXD/D7/RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-ESP32-S3-SMD"
 		(pin_names
@@ -2253,6 +2249,186 @@
 				)
 			)
 			(pin passive line
+				(at 21.59 -3.81 180)
+				(length 2.54)
+				(name "GPIO8_A9_D9_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 0 180)
+				(length 2.54)
+				(name "GPIO9_A10_D10_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 3.81 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 11.43 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -21.59 90)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -21.59 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 22.86 270)
+				(length 2.54)
+				(name "MTDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 22.86 270)
+				(length 2.54)
+				(name "MTDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 22.86 270)
+				(length 2.54)
+				(name "CHIP_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -21.59 7.62 0)
 				(length 2.54)
 				(name "GPIO2_A1_D1"
@@ -2263,6 +2439,114 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 22.86 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 22.86 270)
+				(length 2.54)
+				(name "MTMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 22.86 270)
+				(length 2.54)
+				(name "MTCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 22.86 270)
+				(length 2.54)
+				(name "USB_DN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 22.86 270)
+				(length 2.54)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -21.59 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2361,286 +2645,16 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 22.86 270)
+				(at 21.59 -11.43 180)
 				(length 2.54)
-				(name "MTDI"
+				(name "GPIO44_D7_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 22.86 270)
-				(length 2.54)
-				(name "MTDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 22.86 270)
-				(length 2.54)
-				(name "CHIP_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -21.59 90)
-				(length 2.54)
-				(name "BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -1.27 22.86 270)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 22.86 270)
-				(length 2.54)
-				(name "MTMS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -21.59 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 22.86 270)
-				(length 2.54)
-				(name "MTCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -21.59 90)
-				(length 2.54)
-				(name "PAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 22.86 270)
-				(length 2.54)
-				(name "USB_DN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 22.86 270)
-				(length 2.54)
-				(name "USB_DP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 11.43 180)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 0 180)
-				(length 2.54)
-				(name "GPIO9_A10_D10_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 -3.81 180)
-				(length 2.54)
-				(name "GPIO8_A9_D9_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2666,26 +2680,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 21.59 -11.43 180)
-				(length 2.54)
-				(name "GPIO44_D7_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-MG24-DIP"
 		(exclude_from_sim no)
@@ -2737,7 +2732,7 @@
 		(symbol "XIAO-MG24-DIP_1_0"
 			(polyline
 				(pts
-					(xy 0 -3.81) (xy 40.64 -3.81)
+					(xy 0 -31.75) (xy 0 -17.78)
 				)
 				(stroke
 					(width 0.1524)
@@ -2749,7 +2744,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -6.35) (xy -1.27 -6.35)
+					(xy 0 -29.21) (xy -1.27 -29.21)
 				)
 				(stroke
 					(width 0.1524)
@@ -2761,7 +2756,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -6.35) (xy 0 -3.81)
+					(xy 0 -25.4) (xy -1.27 -25.4)
 				)
 				(stroke
 					(width 0.1524)
@@ -2773,43 +2768,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -10.16) (xy -1.27 -10.16)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -10.16) (xy 0 -6.35)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -13.97) (xy -1.27 -13.97)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -13.97) (xy 0 -10.16)
+					(xy 0 -21.59) (xy -1.27 -21.59)
 				)
 				(stroke
 					(width 0.1524)
@@ -2845,7 +2804,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -21.59) (xy -1.27 -21.59)
+					(xy 0 -13.97) (xy -1.27 -13.97)
 				)
 				(stroke
 					(width 0.1524)
@@ -2857,7 +2816,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -25.4) (xy -1.27 -25.4)
+					(xy 0 -13.97) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -2869,7 +2828,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -29.21) (xy -1.27 -29.21)
+					(xy 0 -10.16) (xy -1.27 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -2881,7 +2840,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -31.75) (xy 0 -17.78)
+					(xy 0 -10.16) (xy 0 -6.35)
 				)
 				(stroke
 					(width 0.1524)
@@ -2893,7 +2852,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -3.81) (xy 40.64 -6.35)
+					(xy 0 -6.35) (xy -1.27 -6.35)
 				)
 				(stroke
 					(width 0.1524)
@@ -2905,7 +2864,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -6.35) (xy 40.64 -10.16)
+					(xy 0 -6.35) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -2917,19 +2876,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -10.16) (xy 40.64 -13.97)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40.64 -13.97) (xy 40.64 -31.75)
+					(xy 0 -3.81) (xy 40.64 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -2953,7 +2900,7 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -6.35) (xy 40.64 -6.35)
+					(xy 40.64 -13.97) (xy 40.64 -31.75)
 				)
 				(stroke
 					(width 0.1524)
@@ -2965,7 +2912,7 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -10.16) (xy 40.64 -10.16)
+					(xy 40.64 -10.16) (xy 40.64 -13.97)
 				)
 				(stroke
 					(width 0.1524)
@@ -2977,7 +2924,7 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -13.97) (xy 40.64 -13.97)
+					(xy 40.64 -6.35) (xy 40.64 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -2989,7 +2936,7 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -17.78) (xy 40.64 -17.78)
+					(xy 40.64 -3.81) (xy 40.64 -6.35)
 				)
 				(stroke
 					(width 0.1524)
@@ -3001,7 +2948,7 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -21.59) (xy 40.64 -21.59)
+					(xy 41.91 -29.21) (xy 40.64 -29.21)
 				)
 				(stroke
 					(width 0.1524)
@@ -3025,7 +2972,55 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 -29.21) (xy 40.64 -29.21)
+					(xy 41.91 -21.59) (xy 40.64 -21.59)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 41.91 -17.78) (xy 40.64 -17.78)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 41.91 -13.97) (xy 40.64 -13.97)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 41.91 -10.16) (xy 40.64 -10.16)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 41.91 -6.35) (xy 40.64 -6.35)
 				)
 				(stroke
 					(width 0.1524)
@@ -3046,6 +3041,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 -21.59 180)
+				(length 2.54)
+				(name "PA04/A9/D9/MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 -17.78 180)
+				(length 2.54)
+				(name "PA05/A10/D10/MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 -13.97 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 -6.35 180)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3162,88 +3247,16 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -6.35 180)
+				(at 43.18 -29.21 180)
 				(length 2.54)
-				(name "VIN"
+				(name "PC07/A7/D7/RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 43.18 -10.16 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 43.18 -13.97 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 43.18 -17.78 180)
-				(length 2.54)
-				(name "PA05/A10/D10/MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 43.18 -21.59 180)
-				(length 2.54)
-				(name "PA04/A9/D9/MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3269,26 +3282,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 43.18 -29.21 180)
-				(length 2.54)
-				(name "PC07/A7/D7/RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-MG24-SMD"
 		(exclude_from_sim no)
@@ -3355,55 +3349,7 @@
 		(symbol "XIAO-MG24-SMD_1_0"
 			(polyline
 				(pts
-					(xy -22.86 -3.81) (xy -21.59 -3.81)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -7.62) (xy -21.59 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -11.43) (xy -21.59 -11.43)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -15.24) (xy -21.59 -15.24)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -19.05) (xy -21.59 -19.05)
+					(xy -22.86 -26.67) (xy -21.59 -26.67)
 				)
 				(stroke
 					(width 0.1524)
@@ -3427,7 +3373,7 @@
 			)
 			(polyline
 				(pts
-					(xy -22.86 -26.67) (xy -21.59 -26.67)
+					(xy -22.86 -19.05) (xy -21.59 -19.05)
 				)
 				(stroke
 					(width 0.1524)
@@ -3439,7 +3385,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 22.86) (xy -22.86 22.86)
+					(xy -22.86 -15.24) (xy -21.59 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -3451,7 +3397,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 19.05) (xy -22.86 19.05)
+					(xy -22.86 -11.43) (xy -21.59 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -3463,7 +3409,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 15.24) (xy -22.86 15.24)
+					(xy -22.86 -7.62) (xy -21.59 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -3475,7 +3421,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 11.43) (xy -22.86 11.43)
+					(xy -22.86 -3.81) (xy -21.59 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -3487,7 +3433,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 7.62) (xy -22.86 7.62)
+					(xy -21.59 0) (xy -22.86 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -3511,7 +3457,55 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 0) (xy -22.86 0)
+					(xy -21.59 7.62) (xy -22.86 7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 11.43) (xy -22.86 11.43)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 15.24) (xy -22.86 15.24)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 19.05) (xy -22.86 19.05)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 22.86) (xy -22.86 22.86)
 				)
 				(stroke
 					(width 0.1524)
@@ -3532,6 +3526,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -11.43 0)
+				(length 2.54)
+				(name "PA04_A9_D9_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -15.24 0)
+				(length 2.54)
+				(name "PA05_A10_D10_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -19.05 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -22.86 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -26.67 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3683,98 +3767,296 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -24.13 -11.43 0)
-				(length 2.54)
-				(name "PA04_A9_D9_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -15.24 0)
-				(length 2.54)
-				(name "PA05_A10_D10_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -19.05 0)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -22.86 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -26.67 0)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "XIAO-MG24-SMD_1_1"
+			(pin passive line
+				(at 25.4 -34.29 180)
+				(length 2.54)
+				(name "PA08_A11_D11_SAMD11_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -30.48 180)
+				(length 2.54)
+				(name "PA08_A12_D12_SAMD11_RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -26.67 180)
+				(length 2.54)
+				(name "PB02_A13_D13_SCL1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -22.86 180)
+				(length 2.54)
+				(name "PB02_A14_D14_SDA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -19.05 180)
+				(length 2.54)
+				(name "PB00_A15_D15_MOSI1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -15.24 180)
+				(length 2.54)
+				(name "PB01_A16_D16_MISO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -11.43 180)
+				(length 2.54)
+				(name "PA00_A17_D17_SCK1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -7.62 180)
+				(length 2.54)
+				(name "PD02_A18_D18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -3.81 180)
+				(length 2.54)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 2.54)
+				(name "MG24_RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 3.81 180)
+				(length 2.54)
+				(name "SAMD11_RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 7.62 180)
+				(length 2.54)
+				(name "SAMD11_SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 11.43 180)
+				(length 2.54)
+				(name "SAMD11_SWCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 15.24 180)
+				(length 2.54)
+				(name "3V3_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 19.05 180)
+				(length 2.54)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 22.86 180)
+				(length 2.54)
+				(name "SWCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -24.13 -30.48 0)
 				(length 2.54)
@@ -3811,296 +4093,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 25.4 22.86 180)
-				(length 2.54)
-				(name "SWCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 19.05 180)
-				(length 2.54)
-				(name "GND_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 15.24 180)
-				(length 2.54)
-				(name "3V3_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 11.43 180)
-				(length 2.54)
-				(name "SAMD11_SWCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 7.62 180)
-				(length 2.54)
-				(name "SAMD11_SWDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 3.81 180)
-				(length 2.54)
-				(name "SAMD11_RST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 0 180)
-				(length 2.54)
-				(name "MG24_RST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -3.81 180)
-				(length 2.54)
-				(name "SWDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -7.62 180)
-				(length 2.54)
-				(name "PD02_A18_D18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -11.43 180)
-				(length 2.54)
-				(name "PA00_A17_D17_SCK1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -15.24 180)
-				(length 2.54)
-				(name "PB01_A16_D16_MISO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -19.05 180)
-				(length 2.54)
-				(name "PB00_A15_D15_MOSI1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -22.86 180)
-				(length 2.54)
-				(name "PB02_A14_D14_SDA1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -26.67 180)
-				(length 2.54)
-				(name "PB02_A13_D13_SCL1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -30.48 180)
-				(length 2.54)
-				(name "PA08_A12_D12_SAMD11_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -34.29 180)
-				(length 2.54)
-				(name "PA08_A11_D11_SAMD11_TX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-RA4M1-DIP"
 		(exclude_from_sim no)
@@ -4152,7 +4145,7 @@
 		(symbol "XIAO-RA4M1-DIP_1_0"
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 35.56 -2.54)
+					(xy 0 -30.48) (xy 0 -16.51)
 				)
 				(stroke
 					(width 0.1524)
@@ -4164,7 +4157,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy -1.27 -5.08)
+					(xy 0 -27.94) (xy -1.27 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -4176,7 +4169,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -2.54)
+					(xy 0 -24.13) (xy -1.27 -24.13)
 				)
 				(stroke
 					(width 0.1524)
@@ -4188,43 +4181,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -8.89) (xy -1.27 -8.89)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -8.89) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -12.7) (xy -1.27 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -12.7) (xy 0 -8.89)
+					(xy 0 -20.32) (xy -1.27 -20.32)
 				)
 				(stroke
 					(width 0.1524)
@@ -4260,7 +4217,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -20.32) (xy -1.27 -20.32)
+					(xy 0 -12.7) (xy -1.27 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -4272,7 +4229,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -24.13) (xy -1.27 -24.13)
+					(xy 0 -12.7) (xy 0 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -4284,7 +4241,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -27.94) (xy -1.27 -27.94)
+					(xy 0 -8.89) (xy -1.27 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -4296,7 +4253,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -30.48) (xy 0 -16.51)
+					(xy 0 -8.89) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -4308,7 +4265,7 @@
 			)
 			(polyline
 				(pts
-					(xy 35.56 -2.54) (xy 35.56 -5.08)
+					(xy 0 -5.08) (xy -1.27 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -4320,7 +4277,7 @@
 			)
 			(polyline
 				(pts
-					(xy 35.56 -5.08) (xy 35.56 -8.89)
+					(xy 0 -5.08) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -4332,19 +4289,7 @@
 			)
 			(polyline
 				(pts
-					(xy 35.56 -8.89) (xy 35.56 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 35.56 -12.7) (xy 35.56 -30.48)
+					(xy 0 -2.54) (xy 35.56 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -4368,7 +4313,7 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -5.08) (xy 35.56 -5.08)
+					(xy 35.56 -12.7) (xy 35.56 -30.48)
 				)
 				(stroke
 					(width 0.1524)
@@ -4380,7 +4325,7 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -8.89) (xy 35.56 -8.89)
+					(xy 35.56 -8.89) (xy 35.56 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -4392,7 +4337,7 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -12.7) (xy 35.56 -12.7)
+					(xy 35.56 -5.08) (xy 35.56 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -4404,7 +4349,7 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -16.51) (xy 35.56 -16.51)
+					(xy 35.56 -2.54) (xy 35.56 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -4416,7 +4361,7 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -20.32) (xy 35.56 -20.32)
+					(xy 36.83 -27.94) (xy 35.56 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -4440,7 +4385,55 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -27.94) (xy 35.56 -27.94)
+					(xy 36.83 -20.32) (xy 35.56 -20.32)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 36.83 -16.51) (xy 35.56 -16.51)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 36.83 -12.7) (xy 35.56 -12.7)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 36.83 -8.89) (xy 35.56 -8.89)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 36.83 -5.08) (xy 35.56 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -4461,6 +4454,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -20.32 180)
+				(length 2.54)
+				(name "P110/MISO9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -16.51 180)
+				(length 2.54)
+				(name "P109/MOSI9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -12.7 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -8.89 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 -5.08 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4577,88 +4660,16 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -5.08 180)
+				(at 38.1 -27.94 180)
 				(length 2.54)
-				(name "VBUS"
+				(name "P301/RXD2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 38.1 -8.89 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 38.1 -12.7 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 38.1 -16.51 180)
-				(length 2.54)
-				(name "P109/MOSI9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 38.1 -20.32 180)
-				(length 2.54)
-				(name "P110/MISO9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4684,26 +4695,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 38.1 -27.94 180)
-				(length 2.54)
-				(name "P301/RXD2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-RA4M1-SMD"
 		(exclude_from_sim no)
@@ -4770,55 +4762,7 @@
 		(symbol "XIAO-RA4M1-SMD_1_0"
 			(polyline
 				(pts
-					(xy -22.86 -3.81) (xy -21.59 -3.81)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -7.62) (xy -21.59 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -11.43) (xy -21.59 -11.43)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -15.24) (xy -21.59 -15.24)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -19.05) (xy -21.59 -19.05)
+					(xy -22.86 -26.67) (xy -21.59 -26.67)
 				)
 				(stroke
 					(width 0.1524)
@@ -4842,7 +4786,7 @@
 			)
 			(polyline
 				(pts
-					(xy -22.86 -26.67) (xy -21.59 -26.67)
+					(xy -22.86 -19.05) (xy -21.59 -19.05)
 				)
 				(stroke
 					(width 0.1524)
@@ -4854,7 +4798,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 22.86) (xy -22.86 22.86)
+					(xy -22.86 -15.24) (xy -21.59 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -4866,7 +4810,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 19.05) (xy -22.86 19.05)
+					(xy -22.86 -11.43) (xy -21.59 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -4878,7 +4822,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 15.24) (xy -22.86 15.24)
+					(xy -22.86 -7.62) (xy -21.59 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -4890,7 +4834,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 11.43) (xy -22.86 11.43)
+					(xy -22.86 -3.81) (xy -21.59 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -4902,7 +4846,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 7.62) (xy -22.86 7.62)
+					(xy -21.59 0) (xy -22.86 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -4926,7 +4870,55 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 0) (xy -22.86 0)
+					(xy -21.59 7.62) (xy -22.86 7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 11.43) (xy -22.86 11.43)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 15.24) (xy -22.86 15.24)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 19.05) (xy -22.86 19.05)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 22.86) (xy -22.86 22.86)
 				)
 				(stroke
 					(width 0.1524)
@@ -4947,6 +4939,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -11.43 0)
+				(length 2.54)
+				(name "P110_MISO9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -15.24 0)
+				(length 2.54)
+				(name "P109_MOSI9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -19.05 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -22.86 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -26.67 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5098,98 +5180,260 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -24.13 -11.43 0)
-				(length 2.54)
-				(name "P110_MISO9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -15.24 0)
-				(length 2.54)
-				(name "P109_MOSI9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -19.05 0)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -22.86 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -26.67 0)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "XIAO-RA4M1-SMD_1_1"
+			(pin passive line
+				(at 25.4 -26.67 180)
+				(length 2.54)
+				(name "P408_RX9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -22.86 180)
+				(length 2.54)
+				(name "P409_TX9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -19.05 180)
+				(length 2.54)
+				(name "P013"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -15.24 180)
+				(length 2.54)
+				(name "P012"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -11.43 180)
+				(length 2.54)
+				(name "P101_ADC21_MOSI0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -7.62 180)
+				(length 2.54)
+				(name "P104_MISO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -3.81 180)
+				(length 2.54)
+				(name "P102_SCK0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 2.54)
+				(name "P103_SS0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 3.81 180)
+				(length 2.54)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 7.62 180)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 11.43 180)
+				(length 2.54)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 15.24 180)
+				(length 2.54)
+				(name "3V3_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 19.05 180)
+				(length 2.54)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 22.86 180)
+				(length 2.54)
+				(name "SWDCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -2.54 -31.75 90)
 				(length 2.54)
@@ -5226,260 +5470,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 25.4 22.86 180)
-				(length 2.54)
-				(name "SWDCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 19.05 180)
-				(length 2.54)
-				(name "GND_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 15.24 180)
-				(length 2.54)
-				(name "3V3_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 11.43 180)
-				(length 2.54)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 7.62 180)
-				(length 2.54)
-				(name "RST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 3.81 180)
-				(length 2.54)
-				(name "SWDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 0 180)
-				(length 2.54)
-				(name "P103_SS0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -3.81 180)
-				(length 2.54)
-				(name "P102_SCK0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -7.62 180)
-				(length 2.54)
-				(name "P104_MISO0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -11.43 180)
-				(length 2.54)
-				(name "P101_ADC21_MOSI0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -15.24 180)
-				(length 2.54)
-				(name "P012"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -19.05 180)
-				(length 2.54)
-				(name "P013"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -22.86 180)
-				(length 2.54)
-				(name "P409_TX9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -26.67 180)
-				(length 2.54)
-				(name "P408_RX9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-RP2040-DIP"
 		(exclude_from_sim no)
@@ -5531,7 +5522,7 @@
 		(symbol "XIAO-RP2040-DIP_1_0"
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy 29.21 -2.54)
+					(xy -1.27 -30.48) (xy -1.27 -16.51)
 				)
 				(stroke
 					(width 0.1524)
@@ -5543,7 +5534,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy -2.54 -5.08)
+					(xy -1.27 -27.94) (xy -2.54 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -5555,7 +5546,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy -1.27 -2.54)
+					(xy -1.27 -24.13) (xy -2.54 -24.13)
 				)
 				(stroke
 					(width 0.1524)
@@ -5567,43 +5558,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -8.89) (xy -2.54 -8.89)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -8.89) (xy -1.27 -5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -12.7) (xy -2.54 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -12.7) (xy -1.27 -8.89)
+					(xy -1.27 -20.32) (xy -2.54 -20.32)
 				)
 				(stroke
 					(width 0.1524)
@@ -5639,7 +5594,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -20.32) (xy -2.54 -20.32)
+					(xy -1.27 -12.7) (xy -2.54 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -5651,7 +5606,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -24.13) (xy -2.54 -24.13)
+					(xy -1.27 -12.7) (xy -1.27 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -5663,7 +5618,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -27.94) (xy -2.54 -27.94)
+					(xy -1.27 -8.89) (xy -2.54 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -5675,7 +5630,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -30.48) (xy -1.27 -16.51)
+					(xy -1.27 -8.89) (xy -1.27 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -5687,7 +5642,7 @@
 			)
 			(polyline
 				(pts
-					(xy 29.21 -2.54) (xy 29.21 -5.08)
+					(xy -1.27 -5.08) (xy -2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -5699,7 +5654,7 @@
 			)
 			(polyline
 				(pts
-					(xy 29.21 -5.08) (xy 29.21 -8.89)
+					(xy -1.27 -5.08) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -5711,19 +5666,7 @@
 			)
 			(polyline
 				(pts
-					(xy 29.21 -8.89) (xy 29.21 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 29.21 -12.7) (xy 29.21 -30.48)
+					(xy -1.27 -2.54) (xy 29.21 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -5747,7 +5690,7 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 -5.08) (xy 29.21 -5.08)
+					(xy 29.21 -12.7) (xy 29.21 -30.48)
 				)
 				(stroke
 					(width 0.1524)
@@ -5759,7 +5702,7 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 -8.89) (xy 29.21 -8.89)
+					(xy 29.21 -8.89) (xy 29.21 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -5771,7 +5714,7 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 -12.7) (xy 29.21 -12.7)
+					(xy 29.21 -5.08) (xy 29.21 -8.89)
 				)
 				(stroke
 					(width 0.1524)
@@ -5783,7 +5726,7 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 -16.51) (xy 29.21 -16.51)
+					(xy 29.21 -2.54) (xy 29.21 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -5795,7 +5738,7 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 -20.32) (xy 29.21 -20.32)
+					(xy 30.48 -27.94) (xy 29.21 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -5819,7 +5762,55 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 -27.94) (xy 29.21 -27.94)
+					(xy 30.48 -20.32) (xy 29.21 -20.32)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.48 -16.51) (xy 29.21 -16.51)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.48 -12.7) (xy 29.21 -12.7)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.48 -8.89) (xy 29.21 -8.89)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.48 -5.08) (xy 29.21 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -5840,6 +5831,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 31.75 -20.32 180)
+				(length 2.54)
+				(name "GPIO4/MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 31.75 -16.51 180)
+				(length 2.54)
+				(name "GPIO3/MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 31.75 -12.7 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 31.75 -8.89 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 31.75 -5.08 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5956,88 +6037,16 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -5.08 180)
+				(at 31.75 -27.94 180)
 				(length 2.54)
-				(name "VBUS"
+				(name "GPIO1/RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 31.75 -8.89 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 31.75 -12.7 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 31.75 -16.51 180)
-				(length 2.54)
-				(name "GPIO3/MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 31.75 -20.32 180)
-				(length 2.54)
-				(name "GPIO4/MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6063,26 +6072,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 31.75 -27.94 180)
-				(length 2.54)
-				(name "GPIO1/RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-RP2040-SMD"
 		(pin_names
@@ -6167,6 +6157,186 @@
 				)
 			)
 			(pin passive line
+				(at 21.59 -3.81 180)
+				(length 2.54)
+				(name "GPIO4_D9_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 0 180)
+				(length 2.54)
+				(name "GPIO3_D10_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 3.81 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 11.43 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -21.59 90)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -21.59 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 22.86 270)
+				(length 2.54)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 22.86 270)
+				(length 2.54)
+				(name "SWDCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 22.86 270)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -21.59 7.62 0)
 				(length 2.54)
 				(name "GPIO27_A1_D1"
@@ -6177,6 +6347,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 22.86 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6275,196 +6463,16 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 22.86 270)
+				(at 21.59 -11.43 180)
 				(length 2.54)
-				(name "SWDIO"
+				(name "GPIO1_D7_CSn_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 22.86 270)
-				(length 2.54)
-				(name "SWDCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -21.59 90)
-				(length 2.54)
-				(name "BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 22.86 270)
-				(length 2.54)
-				(name "RST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -21.59 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 22.86 270)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 11.43 180)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 0 180)
-				(length 2.54)
-				(name "GPIO3_D10_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 -3.81 180)
-				(length 2.54)
-				(name "GPIO4_D9_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6490,26 +6498,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 21.59 -11.43 180)
-				(length 2.54)
-				(name "GPIO1_D7_CSn_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-RP2350-DIP"
 		(exclude_from_sim no)
@@ -6561,7 +6550,7 @@
 		(symbol "XIAO-RP2350-DIP_1_0"
 			(polyline
 				(pts
-					(xy -6.35 -1.27) (xy 36.83 -1.27)
+					(xy -6.35 -29.21) (xy -6.35 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -6573,7 +6562,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -3.81) (xy -7.62 -3.81)
+					(xy -6.35 -26.67) (xy -7.62 -26.67)
 				)
 				(stroke
 					(width 0.1524)
@@ -6585,7 +6574,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -3.81) (xy -6.35 -1.27)
+					(xy -6.35 -22.86) (xy -7.62 -22.86)
 				)
 				(stroke
 					(width 0.1524)
@@ -6597,43 +6586,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -7.62) (xy -7.62 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -7.62) (xy -6.35 -3.81)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -11.43) (xy -7.62 -11.43)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 -11.43) (xy -6.35 -7.62)
+					(xy -6.35 -19.05) (xy -7.62 -19.05)
 				)
 				(stroke
 					(width 0.1524)
@@ -6669,7 +6622,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -19.05) (xy -7.62 -19.05)
+					(xy -6.35 -11.43) (xy -7.62 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -6681,7 +6634,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -22.86) (xy -7.62 -22.86)
+					(xy -6.35 -11.43) (xy -6.35 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -6693,7 +6646,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -26.67) (xy -7.62 -26.67)
+					(xy -6.35 -7.62) (xy -7.62 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -6705,7 +6658,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -29.21) (xy -6.35 -15.24)
+					(xy -6.35 -7.62) (xy -6.35 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -6717,7 +6670,7 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -1.27) (xy 36.83 -3.81)
+					(xy -6.35 -3.81) (xy -7.62 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -6729,7 +6682,7 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -3.81) (xy 36.83 -7.62)
+					(xy -6.35 -3.81) (xy -6.35 -1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -6741,19 +6694,7 @@
 			)
 			(polyline
 				(pts
-					(xy 36.83 -7.62) (xy 36.83 -11.43)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 36.83 -11.43) (xy 36.83 -29.21)
+					(xy -6.35 -1.27) (xy 36.83 -1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -6777,7 +6718,7 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -3.81) (xy 36.83 -3.81)
+					(xy 36.83 -11.43) (xy 36.83 -29.21)
 				)
 				(stroke
 					(width 0.1524)
@@ -6789,7 +6730,7 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -7.62) (xy 36.83 -7.62)
+					(xy 36.83 -7.62) (xy 36.83 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -6801,7 +6742,7 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -11.43) (xy 36.83 -11.43)
+					(xy 36.83 -3.81) (xy 36.83 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -6813,7 +6754,7 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -15.24) (xy 36.83 -15.24)
+					(xy 36.83 -1.27) (xy 36.83 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -6825,7 +6766,7 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -19.05) (xy 36.83 -19.05)
+					(xy 38.1 -26.67) (xy 36.83 -26.67)
 				)
 				(stroke
 					(width 0.1524)
@@ -6849,7 +6790,55 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -26.67) (xy 36.83 -26.67)
+					(xy 38.1 -19.05) (xy 36.83 -19.05)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -15.24) (xy 36.83 -15.24)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -11.43) (xy 36.83 -11.43)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -7.62) (xy 36.83 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -3.81) (xy 36.83 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -6870,6 +6859,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 39.37 -19.05 180)
+				(length 2.54)
+				(name "GPIO4/D9/SPI_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 39.37 -15.24 180)
+				(length 2.54)
+				(name "GPIO3/D10/SPI0_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 39.37 -11.43 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 39.37 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 39.37 -3.81 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6986,88 +7065,16 @@
 				)
 			)
 			(pin passive line
-				(at 39.37 -3.81 180)
+				(at 39.37 -26.67 180)
 				(length 2.54)
-				(name "VBUS"
+				(name "GPIO1/D7/RX0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 39.37 -7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 39.37 -11.43 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 39.37 -15.24 180)
-				(length 2.54)
-				(name "GPIO3/D10/SPI0_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 39.37 -19.05 180)
-				(length 2.54)
-				(name "GPIO4/D9/SPI_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7093,26 +7100,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 39.37 -26.67 180)
-				(length 2.54)
-				(name "GPIO1/D7/RX0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-RP2350-SMD"
 		(exclude_from_sim no)
@@ -7179,55 +7167,7 @@
 		(symbol "XIAO-RP2350-SMD_1_0"
 			(polyline
 				(pts
-					(xy -22.86 -3.81) (xy -21.59 -3.81)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -7.62) (xy -21.59 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -11.43) (xy -21.59 -11.43)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -15.24) (xy -21.59 -15.24)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -19.05) (xy -21.59 -19.05)
+					(xy -22.86 -26.67) (xy -21.59 -26.67)
 				)
 				(stroke
 					(width 0.1524)
@@ -7251,7 +7191,7 @@
 			)
 			(polyline
 				(pts
-					(xy -22.86 -26.67) (xy -21.59 -26.67)
+					(xy -22.86 -19.05) (xy -21.59 -19.05)
 				)
 				(stroke
 					(width 0.1524)
@@ -7263,7 +7203,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 22.86) (xy -22.86 22.86)
+					(xy -22.86 -15.24) (xy -21.59 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -7275,7 +7215,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 19.05) (xy -22.86 19.05)
+					(xy -22.86 -11.43) (xy -21.59 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -7287,7 +7227,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 15.24) (xy -22.86 15.24)
+					(xy -22.86 -7.62) (xy -21.59 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -7299,7 +7239,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 11.43) (xy -22.86 11.43)
+					(xy -22.86 -3.81) (xy -21.59 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -7311,7 +7251,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 7.62) (xy -22.86 7.62)
+					(xy -21.59 0) (xy -22.86 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -7335,7 +7275,55 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 0) (xy -22.86 0)
+					(xy -21.59 7.62) (xy -22.86 7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 11.43) (xy -22.86 11.43)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 15.24) (xy -22.86 15.24)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 19.05) (xy -22.86 19.05)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 22.86) (xy -22.86 22.86)
 				)
 				(stroke
 					(width 0.1524)
@@ -7356,6 +7344,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -11.43 0)
+				(length 2.54)
+				(name "GPIO4/D9/SPI0_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -15.24 0)
+				(length 2.54)
+				(name "GPIO3/D10/SPI0_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -19.05 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -22.86 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -24.13 -26.67 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7507,98 +7585,260 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -24.13 -11.43 0)
-				(length 2.54)
-				(name "GPIO4/D9/SPI0_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -15.24 0)
-				(length 2.54)
-				(name "GPIO3/D10/SPI0_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -19.05 0)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -22.86 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -26.67 0)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "XIAO-RP2350-SMD_1_1"
+			(pin passive line
+				(at 25.4 -26.67 180)
+				(length 2.54)
+				(name "GPIO21/D11/RX1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -22.86 180)
+				(length 2.54)
+				(name "GPIO20/D12/TX1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -19.05 180)
+				(length 2.54)
+				(name "GPIO17/D13/SCL0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -15.24 180)
+				(length 2.54)
+				(name "GPIO16/D14/SDA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -11.43 180)
+				(length 2.54)
+				(name "GPIO11/D15/SPI1_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -7.62 180)
+				(length 2.54)
+				(name "GPIO12/D16/SPI1_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -3.81 180)
+				(length 2.54)
+				(name "GPIO10/D17/SPI1_SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 2.54)
+				(name "GPIO9/D18/SPI1_CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 3.81 180)
+				(length 2.54)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 7.62 180)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 11.43 180)
+				(length 2.54)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 15.24 180)
+				(length 2.54)
+				(name "3V3_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 19.05 180)
+				(length 2.54)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 22.86 180)
+				(length 2.54)
+				(name "SWDCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -2.54 -31.75 90)
 				(length 2.54)
@@ -7635,260 +7875,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 25.4 22.86 180)
-				(length 2.54)
-				(name "SWDCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 19.05 180)
-				(length 2.54)
-				(name "GND_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 15.24 180)
-				(length 2.54)
-				(name "3V3_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 11.43 180)
-				(length 2.54)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 7.62 180)
-				(length 2.54)
-				(name "RST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 3.81 180)
-				(length 2.54)
-				(name "SWDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 0 180)
-				(length 2.54)
-				(name "GPIO9/D18/SPI1_CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -3.81 180)
-				(length 2.54)
-				(name "GPIO10/D17/SPI1_SCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -7.62 180)
-				(length 2.54)
-				(name "GPIO12/D16/SPI1_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -11.43 180)
-				(length 2.54)
-				(name "GPIO11/D15/SPI1_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -15.24 180)
-				(length 2.54)
-				(name "GPIO16/D14/SDA0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -19.05 180)
-				(length 2.54)
-				(name "GPIO17/D13/SCL0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -22.86 180)
-				(length 2.54)
-				(name "GPIO20/D12/TX1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -26.67 180)
-				(length 2.54)
-				(name "GPIO21/D11/RX1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-SAMD21-DIP"
 		(pin_names
@@ -7973,6 +7960,96 @@
 				)
 			)
 			(pin passive line
+				(at 20.32 -3.81 180)
+				(length 2.54)
+				(name "PA5_A9_D9_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "PA6_A10_D10_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 3.81 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 11.43 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -21.59 7.62 0)
 				(length 2.54)
 				(name "PA4_A1_D1"
@@ -8081,88 +8158,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 11.43 180)
+				(at 20.32 -11.43 180)
 				(length 2.54)
-				(name "5V"
+				(name "PB09_A7_D7_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 0 180)
-				(length 2.54)
-				(name "PA6_A10_D10_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -3.81 180)
-				(length 2.54)
-				(name "PA5_A9_D9_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8188,26 +8193,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -11.43 180)
-				(length 2.54)
-				(name "PB09_A7_D7_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-SAMD21-SMD"
 		(pin_names
@@ -8292,6 +8278,186 @@
 				)
 			)
 			(pin passive line
+				(at 20.32 -3.81 180)
+				(length 2.54)
+				(name "PA5_A9_D9_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "PA6_A10_D10_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 3.81 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 11.43 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -21.59 90)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -21.59 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 22.86 270)
+				(length 2.54)
+				(name "PA31_SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 22.86 270)
+				(length 2.54)
+				(name "PA30_SWCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 22.86 270)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -21.59 7.62 0)
 				(length 2.54)
 				(name "PA4_A1_D1"
@@ -8302,6 +8468,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 22.86 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8400,196 +8584,16 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 22.86 270)
+				(at 20.32 -11.43 180)
 				(length 2.54)
-				(name "PA31_SWDIO"
+				(name "PB09_A7_D7_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -21.59 90)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -1.27 22.86 270)
-				(length 2.54)
-				(name "PA30_SWCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 22.86 270)
-				(length 2.54)
-				(name "RESET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -21.59 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 22.86 270)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 11.43 180)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 0 180)
-				(length 2.54)
-				(name "PA6_A10_D10_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -3.81 180)
-				(length 2.54)
-				(name "PA5_A9_D9_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8615,26 +8619,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -11.43 180)
-				(length 2.54)
-				(name "PB09_A7_D7_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-nRF52840-DIP"
 		(exclude_from_sim no)
@@ -8686,7 +8671,7 @@
 		(symbol "XIAO-nRF52840-DIP_1_0"
 			(polyline
 				(pts
-					(xy -3.81 -1.27) (xy 39.37 -1.27)
+					(xy -3.81 -29.21) (xy -3.81 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -8698,7 +8683,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -3.81) (xy -5.08 -3.81)
+					(xy -3.81 -26.67) (xy -5.08 -26.67)
 				)
 				(stroke
 					(width 0.1524)
@@ -8710,7 +8695,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -3.81) (xy -3.81 -1.27)
+					(xy -3.81 -22.86) (xy -5.08 -22.86)
 				)
 				(stroke
 					(width 0.1524)
@@ -8722,43 +8707,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -7.62) (xy -5.08 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -7.62) (xy -3.81 -3.81)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -11.43) (xy -5.08 -11.43)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -11.43) (xy -3.81 -7.62)
+					(xy -3.81 -19.05) (xy -5.08 -19.05)
 				)
 				(stroke
 					(width 0.1524)
@@ -8794,7 +8743,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -19.05) (xy -5.08 -19.05)
+					(xy -3.81 -11.43) (xy -5.08 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -8806,7 +8755,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -22.86) (xy -5.08 -22.86)
+					(xy -3.81 -11.43) (xy -3.81 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -8818,7 +8767,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -26.67) (xy -5.08 -26.67)
+					(xy -3.81 -7.62) (xy -5.08 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -8830,7 +8779,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -29.21) (xy -3.81 -15.24)
+					(xy -3.81 -7.62) (xy -3.81 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -8842,7 +8791,7 @@
 			)
 			(polyline
 				(pts
-					(xy 39.37 -1.27) (xy 39.37 -3.81)
+					(xy -3.81 -3.81) (xy -5.08 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -8854,7 +8803,7 @@
 			)
 			(polyline
 				(pts
-					(xy 39.37 -3.81) (xy 39.37 -7.62)
+					(xy -3.81 -3.81) (xy -3.81 -1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -8866,19 +8815,7 @@
 			)
 			(polyline
 				(pts
-					(xy 39.37 -7.62) (xy 39.37 -11.43)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 39.37 -11.43) (xy 39.37 -29.21)
+					(xy -3.81 -1.27) (xy 39.37 -1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -8902,7 +8839,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -3.81) (xy 39.37 -3.81)
+					(xy 39.37 -11.43) (xy 39.37 -29.21)
 				)
 				(stroke
 					(width 0.1524)
@@ -8914,7 +8851,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -7.62) (xy 39.37 -7.62)
+					(xy 39.37 -7.62) (xy 39.37 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -8926,7 +8863,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -11.43) (xy 39.37 -11.43)
+					(xy 39.37 -3.81) (xy 39.37 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -8938,7 +8875,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -15.24) (xy 39.37 -15.24)
+					(xy 39.37 -1.27) (xy 39.37 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -8950,7 +8887,7 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -19.05) (xy 39.37 -19.05)
+					(xy 40.64 -26.67) (xy 39.37 -26.67)
 				)
 				(stroke
 					(width 0.1524)
@@ -8974,7 +8911,55 @@
 			)
 			(polyline
 				(pts
-					(xy 40.64 -26.67) (xy 39.37 -26.67)
+					(xy 40.64 -19.05) (xy 39.37 -19.05)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40.64 -15.24) (xy 39.37 -15.24)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40.64 -11.43) (xy 39.37 -11.43)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40.64 -7.62) (xy 39.37 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40.64 -3.81) (xy 39.37 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -8995,6 +8980,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 41.91 -19.05 180)
+				(length 2.54)
+				(name "P1.14_MISO_D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 41.91 -15.24 180)
+				(length 2.54)
+				(name "P1.15_MOSI_D10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 41.91 -11.43 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 41.91 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 41.91 -3.81 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9111,88 +9186,16 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -3.81 180)
+				(at 41.91 -26.67 180)
 				(length 2.54)
-				(name "VBUS"
+				(name "P1.12_RX_D7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 41.91 -7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 41.91 -11.43 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 41.91 -15.24 180)
-				(length 2.54)
-				(name "P1.15_MOSI_D10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 41.91 -19.05 180)
-				(length 2.54)
-				(name "P1.14_MISO_D9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9218,26 +9221,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 41.91 -26.67 180)
-				(length 2.54)
-				(name "P1.12_RX_D7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO-nRF52840-SMD"
 		(pin_names
@@ -9322,6 +9306,186 @@
 				)
 			)
 			(pin passive line
+				(at 20.32 -3.81 180)
+				(length 2.54)
+				(name "P1.14_D9_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "P1.15_D10_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 3.81 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 11.43 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -21.59 90)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -21.59 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -21.59 90)
+				(length 2.54)
+				(name "NFC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -21.59 90)
+				(length 2.54)
+				(name "NFC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 22.86 270)
+				(length 2.54)
+				(name "PA31_SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -21.59 7.62 0)
 				(length 2.54)
 				(name "P0.03_A1_D1"
@@ -9332,6 +9496,60 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 22.86 270)
+				(length 2.54)
+				(name "PA30_SWCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 22.86 270)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 22.86 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9430,232 +9648,16 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -21.59 90)
+				(at 20.32 -11.43 180)
 				(length 2.54)
-				(name "BAT"
+				(name "P1.12_D7_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 22.86 270)
-				(length 2.54)
-				(name "PA31_SWDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -21.59 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -1.27 22.86 270)
-				(length 2.54)
-				(name "PA30_SWCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 22.86 270)
-				(length 2.54)
-				(name "RESET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -21.59 90)
-				(length 2.54)
-				(name "NFC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 22.86 270)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -21.59 90)
-				(length 2.54)
-				(name "NFC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 11.43 180)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 0 180)
-				(length 2.54)
-				(name "P1.15_D10_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -3.81 180)
-				(length 2.54)
-				(name "P1.14_D9_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9681,26 +9683,7 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -11.43 180)
-				(length 2.54)
-				(name "P1.12_D7_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "XIAO_ESP32-C6-DIP"
 		(exclude_from_sim no)
@@ -9832,7 +9815,7 @@
 		(symbol "XIAO_ESP32-C6-DIP_1_0"
 			(polyline
 				(pts
-					(xy -21.59 13.97) (xy 22.86 13.97)
+					(xy -21.59 -13.97) (xy -21.59 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -9844,7 +9827,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 11.43) (xy -22.86 11.43)
+					(xy -21.59 -11.43) (xy -22.86 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -9856,7 +9839,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 11.43) (xy -21.59 13.97)
+					(xy -21.59 -7.62) (xy -22.86 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -9868,43 +9851,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 7.62) (xy -22.86 7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -21.59 7.62) (xy -21.59 11.43)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -21.59 3.81) (xy -22.86 3.81)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -21.59 3.81) (xy -21.59 7.62)
+					(xy -21.59 -3.81) (xy -22.86 -3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -9940,7 +9887,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 -3.81) (xy -22.86 -3.81)
+					(xy -21.59 3.81) (xy -22.86 3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -9952,7 +9899,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 -7.62) (xy -22.86 -7.62)
+					(xy -21.59 3.81) (xy -21.59 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -9964,7 +9911,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 -11.43) (xy -22.86 -11.43)
+					(xy -21.59 7.62) (xy -22.86 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -9976,7 +9923,7 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 -13.97) (xy -21.59 0)
+					(xy -21.59 7.62) (xy -21.59 11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -9988,7 +9935,7 @@
 			)
 			(polyline
 				(pts
-					(xy 22.86 13.97) (xy 22.86 11.43)
+					(xy -21.59 11.43) (xy -22.86 11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -10000,7 +9947,7 @@
 			)
 			(polyline
 				(pts
-					(xy 22.86 11.43) (xy 22.86 7.62)
+					(xy -21.59 11.43) (xy -21.59 13.97)
 				)
 				(stroke
 					(width 0.1524)
@@ -10012,19 +9959,7 @@
 			)
 			(polyline
 				(pts
-					(xy 22.86 7.62) (xy 22.86 3.81)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.86 3.81) (xy 22.86 -13.97)
+					(xy -21.59 13.97) (xy 22.86 13.97)
 				)
 				(stroke
 					(width 0.1524)
@@ -10048,7 +9983,7 @@
 			)
 			(polyline
 				(pts
-					(xy 24.13 11.43) (xy 22.86 11.43)
+					(xy 22.86 3.81) (xy 22.86 -13.97)
 				)
 				(stroke
 					(width 0.1524)
@@ -10060,7 +9995,7 @@
 			)
 			(polyline
 				(pts
-					(xy 24.13 7.62) (xy 22.86 7.62)
+					(xy 22.86 7.62) (xy 22.86 3.81)
 				)
 				(stroke
 					(width 0.1524)
@@ -10072,7 +10007,7 @@
 			)
 			(polyline
 				(pts
-					(xy 24.13 3.81) (xy 22.86 3.81)
+					(xy 22.86 11.43) (xy 22.86 7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -10084,7 +10019,7 @@
 			)
 			(polyline
 				(pts
-					(xy 24.13 0) (xy 22.86 0)
+					(xy 22.86 13.97) (xy 22.86 11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -10096,7 +10031,7 @@
 			)
 			(polyline
 				(pts
-					(xy 24.13 -3.81) (xy 22.86 -3.81)
+					(xy 24.13 -11.43) (xy 22.86 -11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -10120,7 +10055,55 @@
 			)
 			(polyline
 				(pts
-					(xy 24.13 -11.43) (xy 22.86 -11.43)
+					(xy 24.13 -3.81) (xy 22.86 -3.81)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 0) (xy 22.86 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 3.81) (xy 22.86 3.81)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 7.62) (xy 22.86 7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 11.43) (xy 22.86 11.43)
 				)
 				(stroke
 					(width 0.1524)
@@ -10141,6 +10124,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -3.81 180)
+				(length 2.54)
+				(name "GPIO20/D9/MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 2.54)
+				(name "GPIO18/D10/MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 3.81 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 11.43 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10257,88 +10330,16 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 11.43 180)
+				(at 25.4 -11.43 180)
 				(length 2.54)
-				(name "VBUS"
+				(name "GPIO17/D7/RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 0 180)
-				(length 2.54)
-				(name "GPIO18/D10/MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -3.81 180)
-				(length 2.54)
-				(name "GPIO20/D9/MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10364,25 +10365,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 25.4 -11.43 180)
-				(length 2.54)
-				(name "GPIO17/D7/RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(embedded_fonts no)
 	)
 )

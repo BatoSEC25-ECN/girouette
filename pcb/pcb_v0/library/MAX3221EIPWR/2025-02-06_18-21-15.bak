@@ -237,7 +237,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -25.4 0)
 				(length 7.62)
 				(name "V-"
@@ -255,7 +255,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -27.94 0)
 				(length 7.62)
 				(name "V+"
