@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "5c1ea003-74e9-499a-930e-36303ec0a70c")
 	(paper "A4")
 	(lib_symbols
@@ -96,17 +96,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,17 +132,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -250,24 +250,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
@@ -279,6 +261,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -357,24 +357,6 @@
 			)
 			(symbol "LM324_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -392,12 +374,35 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint_Probe"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -508,9 +513,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -583,7 +591,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -595,7 +603,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -644,9 +652,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -765,10 +776,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -834,12 +848,11 @@
 				)
 			)
 			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -858,11 +871,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -890,24 +904,6 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
@@ -925,11 +921,32 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Speaker_Ultrasound"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1012,18 +1029,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 -2.286) (xy 0.381 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.651 -0.254) (xy 0.381 -0.254)
 					)
 					(stroke
@@ -1036,7 +1041,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -2.286) (xy -0.635 -3.048)
+						(xy -1.651 -2.286) (xy 0.381 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -1049,6 +1054,18 @@
 				(polyline
 					(pts
 						(xy -0.635 -0.254) (xy -0.635 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.286) (xy -0.635 -3.048)
 					)
 					(stroke
 						(width 0)
@@ -1109,12 +1126,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1186,7 +1208,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1198,7 +1220,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1229,12 +1251,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1325,7 +1352,123 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 171.45 69.85)
+		(end 210.82 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 723120d5-e412-4f52-9ccd-44d84e982218)
+	)
+	(rectangle
+		(start 46.99 120.65)
+		(end 166.37 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81db7472-3e93-4aa3-a71f-d0cee7e18e31)
+	)
+	(rectangle
+		(start 171.45 97.79)
+		(end 210.82 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c1f31bf-8702-4529-b342-5b045edceeaf)
+	)
+	(rectangle
+		(start 48.26 34.29)
+		(end 107.95 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c89ff84b-186d-498c-86f4-a52d1486ffc7)
+	)
+	(rectangle
+		(start 46.99 69.85)
+		(end 166.37 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e29475d7-bd00-4085-91db-1c966da1b14c)
+	)
+	(text "Inverter/amplifier -> voltage reference offseted\nDoes not allow negative voltages"
+		(exclude_from_sim no)
+		(at 171.704 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17e8cd85-d4e8-4278-a5f6-883c200e8fa1")
+	)
+	(text "Inverter/amplifier (one stage, no noise clamping/rejection diodes)\nChained with a comparator\nGain/threshold are tweaked by using potentiometer"
+		(exclude_from_sim no)
+		(at 47.244 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19805816-2acf-4998-902d-e7ec11a78e46")
+	)
+	(text "AOP power supply"
+		(exclude_from_sim no)
+		(at 171.45 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c033981-5d08-4e74-9582-1eed93e91d98")
+	)
+	(text "Inverter/amplifier stage (no noise clamping/rejection diodes)\nTweak R4/R5 and R14/R13 to change gain"
+		(exclude_from_sim no)
+		(at 47.244 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9cc1fe4-8b9e-45b0-84c1-05cf5cd0e65b")
+	)
+	(text "Transducer (receiver)\nR : Allow current dissipation\nC : Avoid current propagation into amplifier"
+		(exclude_from_sim no)
+		(at 48.514 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f13b6a8d-f3e9-4565-955f-2cabecb384b1")
 	)
 	(junction
 		(at 73.66 143.51)
@@ -1392,6 +1535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "965fc855-7258-4c3e-a412-c97e3f43a387")
+	)
+	(junction
+		(at 92.71 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9af13b78-4ae4-4832-af92-a56c06a4fcb0")
 	)
 	(junction
 		(at 121.92 90.17)
@@ -1849,6 +1998,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 46.99) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95910bc1-e17e-453e-8348-ffe72efbb6b6")
+	)
+	(wire
+		(pts
 			(xy 111.76 154.94) (xy 115.57 154.94)
 		)
 		(stroke
@@ -1889,6 +2048,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaff1ba-0cfe-4e77-b327-c94b38a3d815")
+	)
+	(wire
+		(pts
 			(xy 87.63 102.87) (xy 93.98 102.87)
 		)
 		(stroke
@@ -1919,7 +2088,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 46.99) (xy 93.98 46.99)
+			(xy 90.17 46.99) (xy 92.71 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1989,6 +2158,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 41.91) (xy 92.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb5ef9e-92b2-4619-a8be-3bdfef5d6a4d")
+	)
+	(wire
+		(pts
 			(xy 191.77 105.41) (xy 193.04 105.41)
 		)
 		(stroke
@@ -2016,6 +2195,16 @@
 			(type default)
 		)
 		(uuid "d445e326-9b9d-4b66-accd-dda575c1b1bb")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7118b1f-6b59-494e-9e21-6254d033e922")
 	)
 	(wire
 		(pts
@@ -2129,6 +2318,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 46.99) (xy 93.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7f3339-3f30-49f6-9d74-64719f385f8e")
+	)
+	(wire
+		(pts
 			(xy 87.63 92.71) (xy 93.98 92.71)
 		)
 		(stroke
@@ -2146,121 +2345,6 @@
 			(type default)
 		)
 		(uuid "ff65c720-465c-417a-b2a7-b5d22e7b4b05")
-	)
-	(rectangle
-		(start 171.45 69.85)
-		(end 210.82 92.71)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 723120d5-e412-4f52-9ccd-44d84e982218)
-	)
-	(rectangle
-		(start 46.99 120.65)
-		(end 166.37 163.83)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 81db7472-3e93-4aa3-a71f-d0cee7e18e31)
-	)
-	(rectangle
-		(start 171.45 97.79)
-		(end 210.82 113.03)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8c1f31bf-8702-4529-b342-5b045edceeaf)
-	)
-	(rectangle
-		(start 48.26 34.29)
-		(end 107.95 57.15)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c89ff84b-186d-498c-86f4-a52d1486ffc7)
-	)
-	(rectangle
-		(start 46.99 69.85)
-		(end 166.37 113.03)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e29475d7-bd00-4085-91db-1c966da1b14c)
-	)
-	(text "Inverter/amplifier -> voltage reference offseted\nDoes not allow negative voltages"
-		(exclude_from_sim no)
-		(at 171.704 67.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17e8cd85-d4e8-4278-a5f6-883c200e8fa1")
-	)
-	(text "Inverter/amplifier (one stage, no noise clamping/rejection diodes)\nChained with a comparator\nGain/threshold are tweaked by using potentiometer"
-		(exclude_from_sim no)
-		(at 47.244 117.602 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19805816-2acf-4998-902d-e7ec11a78e46")
-	)
-	(text "AOP power supply"
-		(exclude_from_sim no)
-		(at 171.45 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c033981-5d08-4e74-9582-1eed93e91d98")
-	)
-	(text "Inverter/amplifier stage (no noise clamping/rejection diodes)\nTweak R4/R5 and R14/R13 to change gain"
-		(exclude_from_sim no)
-		(at 47.244 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9cc1fe4-8b9e-45b0-84c1-05cf5cd0e65b")
-	)
-	(text "Transducer (receiver)\nR : Allow current dissipation\nC : Avoid current propagation into amplifier"
-		(exclude_from_sim no)
-		(at 48.514 30.988 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f13b6a8d-f3e9-4565-955f-2cabecb384b1")
 	)
 	(global_label "comparator_out"
 		(shape input)
@@ -2617,7 +2701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 68.58 89.408 90)
 			(effects
 				(font
@@ -2687,7 +2771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 123.19 144.78 0)
 			(effects
 				(font
@@ -2816,7 +2900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 185.42 80.772 90)
 			(effects
 				(font
@@ -2954,7 +3038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 80.01 103.8352 0)
 			(effects
 				(font
@@ -3024,7 +3108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 144.78 53.34 0)
 			(effects
 				(font
@@ -3154,7 +3238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 90.17 46.0248 0)
 			(effects
 				(font
@@ -3222,7 +3306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "LM324AN:N14"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -3327,7 +3411,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 90.17 153.67 0)
 			(effects
 				(font
@@ -3391,7 +3475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 106.172 146.05 90)
 			(effects
 				(font
@@ -3599,7 +3683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -3663,7 +3747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 72.39 51.308 90)
 			(effects
 				(font
@@ -3730,7 +3814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 195.58 80.772 90)
 			(effects
 				(font
@@ -3864,7 +3948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 132.08 91.948 90)
 			(effects
 				(font
@@ -3999,7 +4083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 54.61 153.67 0)
 			(effects
 				(font
@@ -4040,6 +4124,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 86.36 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a169183d-2355-4e3d-95d8-838988935941")
+		(property "Reference" "R11"
+			(at 86.36 39.116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 86.36 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 86.36 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bfec8e6-6e1b-48ab-acde-e5ba851c9792")
+		)
+		(pin "2"
+			(uuid "b9e446c6-dc8a-48d7-9f21-bb7eb387b930")
+		)
+		(instances
+			(project "pcb_v0"
+				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a/edb8a1e0-3dab-4dee-8a74-bfb1d844df9f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 67.31 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4063,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 67.31 138.938 90)
 			(effects
 				(font
@@ -4131,7 +4282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "LM324AN:N14"
 			(at 81.28 132.08 0)
 			(effects
 				(font
@@ -4303,7 +4454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 144.78 48.26 0)
 			(effects
 				(font
@@ -4367,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 115.57 86.868 90)
 			(effects
 				(font
@@ -4437,7 +4588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 144.78 38.1 0)
 			(effects
 				(font
@@ -4502,7 +4653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "LM324AN:N14"
 			(at 119.38 134.62 0)
 			(effects
 				(font
@@ -4606,7 +4757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "LM324AN:N14"
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -4709,7 +4860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 83.82 94.488 90)
 			(effects
 				(font
@@ -4776,7 +4927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 86.36 150.368 90)
 			(effects
 				(font
@@ -4843,7 +4994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 128.27 101.2952 0)
 			(effects
 				(font
@@ -4979,7 +5130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
 			(at 144.78 43.18 0)
 			(effects
 				(font
@@ -5044,7 +5195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "LM324AN:N14"
 			(at 130.81 80.01 0)
 			(effects
 				(font
