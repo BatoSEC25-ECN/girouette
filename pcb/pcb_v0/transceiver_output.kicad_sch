@@ -1089,7 +1089,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "DIS"
@@ -1327,7 +1327,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -7.62 0)
 					(length 7.62)
 					(name "*EN"
@@ -1345,7 +1345,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "*FORCEOFF"
@@ -1363,7 +1363,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "*INVALID"
@@ -1381,7 +1381,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "FORCEON"
@@ -1399,7 +1399,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -25.4 0)
 					(length 7.62)
 					(name "V-"
@@ -1417,7 +1417,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -27.94 0)
 					(length 7.62)
 					(name "V+"
@@ -1507,7 +1507,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 50.8 -7.62 180)
 					(length 7.62)
 					(name "C1-"
@@ -1525,7 +1525,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 50.8 -10.16 180)
 					(length 7.62)
 					(name "C1+"
@@ -1543,7 +1543,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 50.8 -12.7 180)
 					(length 7.62)
 					(name "C2-"
@@ -1561,7 +1561,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 50.8 -15.24 180)
 					(length 7.62)
 					(name "C2+"
