@@ -526,7 +526,7 @@
       "plot": "production_files/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pcb_v0.step",
       "svg": "",
       "vrml": ""
     },
