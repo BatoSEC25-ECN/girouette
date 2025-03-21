@@ -392,3 +392,6 @@ XUNIT_RESULT*.xml
 sdkconfig*
 !sdkconfig.defaults
 !sdkconfig.defaults.esp32c3
+
+# generated debug file
+.gdbinit
