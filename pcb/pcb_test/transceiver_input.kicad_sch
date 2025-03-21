@@ -1489,12 +1489,6 @@
 		(uuid "14d0627b-6750-4b0e-a9b3-4a52afc5849b")
 	)
 	(junction
-		(at 80.01 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "392e3974-d6f4-4c4a-ad26-d78ed2415ac9")
-	)
-	(junction
 		(at 142.24 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1535,12 +1529,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "965fc855-7258-4c3e-a412-c97e3f43a387")
-	)
-	(junction
-		(at 92.71 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9af13b78-4ae4-4832-af92-a56c06a4fcb0")
 	)
 	(junction
 		(at 121.92 90.17)
@@ -1818,16 +1806,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 49.53) (xy 80.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fbfc2f5-3837-4c59-95b7-7d61b511cc90")
-	)
-	(wire
-		(pts
 			(xy 73.66 87.63) (xy 73.66 92.71)
 		)
 		(stroke
@@ -1998,16 +1976,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 46.99) (xy 80.01 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95910bc1-e17e-453e-8348-ffe72efbb6b6")
-	)
-	(wire
-		(pts
 			(xy 175.26 105.41) (xy 175.26 104.14)
 		)
 		(stroke
@@ -2058,16 +2026,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 41.91) (xy 92.71 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acaff1ba-0cfe-4e77-b327-c94b38a3d815")
-	)
-	(wire
-		(pts
 			(xy 87.63 102.87) (xy 93.98 102.87)
 		)
 		(stroke
@@ -2098,16 +2056,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 46.99) (xy 92.71 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8a14bc6-e7be-4c42-8733-c0c5df504cf8")
-	)
-	(wire
-		(pts
 			(xy 92.71 148.59) (xy 92.71 134.62)
 		)
 		(stroke
@@ -2118,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 46.99) (xy 80.01 46.99)
+			(xy 64.77 46.99) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2168,16 +2116,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 92.71 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb5ef9e-92b2-4619-a8be-3bdfef5d6a4d")
-	)
-	(wire
-		(pts
 			(xy 191.77 105.41) (xy 193.04 105.41)
 		)
 		(stroke
@@ -2195,36 +2133,6 @@
 			(type default)
 		)
 		(uuid "d322643c-0951-4b8c-a615-8787a692eed2")
-	)
-	(wire
-		(pts
-			(xy 76.2 49.53) (xy 80.01 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d445e326-9b9d-4b66-accd-dda575c1b1bb")
-	)
-	(wire
-		(pts
-			(xy 80.01 41.91) (xy 82.55 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7118b1f-6b59-494e-9e21-6254d033e922")
-	)
-	(wire
-		(pts
-			(xy 80.01 46.99) (xy 82.55 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9490b4f-bace-4e2a-83f3-d54cc77cf221")
 	)
 	(wire
 		(pts
@@ -2315,16 +2223,6 @@
 			(type default)
 		)
 		(uuid "fdc7e023-446f-4020-9ecc-42cc10916f86")
-	)
-	(wire
-		(pts
-			(xy 92.71 46.99) (xy 93.98 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe7f3339-3f30-49f6-9d74-64719f385f8e")
 	)
 	(wire
 		(pts
@@ -3213,74 +3111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 86.36 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e547789-e55d-4d6e-b2fe-b9824aa37a18")
-		(property "Reference" "C10"
-			(at 39.37 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1nF"
-			(at 86.36 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 90.17 46.0248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 86.36 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08c86deb-3f29-480e-ae3f-6c2261f371b5")
-		)
-		(pin "1"
-			(uuid "faeb870c-251c-422e-8033-79b72713f382")
-		)
-		(instances
-			(project "pcb_v0"
-				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a/edb8a1e0-3dab-4dee-8a74-bfb1d844df9f"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM324")
 		(at 184.15 102.87 90)
 		(unit 5)
@@ -3724,73 +3554,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b2406f5-b9c9-406b-9194-e31363c5de2f")
-		(property "Reference" "R9"
-			(at 72.39 52.324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.7k"
-			(at 72.39 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 72.39 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3156f34d-ba43-4c44-9595-542d3e9c9266")
-		)
-		(pin "2"
-			(uuid "9ac87909-26c6-45ff-b395-625ffcebdc8d")
-		)
-		(instances
-			(project "pcb_v0"
-				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a/edb8a1e0-3dab-4dee-8a74-bfb1d844df9f"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 195.58 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4124,73 +3887,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a169183d-2355-4e3d-95d8-838988935941")
-		(property "Reference" "R11"
-			(at 86.36 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 86.36 36.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 86.36 40.132 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bfec8e6-6e1b-48ab-acde-e5ba851c9792")
-		)
-		(pin "2"
-			(uuid "b9e446c6-dc8a-48d7-9f21-bb7eb387b930")
-		)
-		(instances
-			(project "pcb_v0"
-				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a/edb8a1e0-3dab-4dee-8a74-bfb1d844df9f"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 67.31 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4251,6 +3947,72 @@
 			(project "pcb_v0"
 				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a/edb8a1e0-3dab-4dee-8a74-bfb1d844df9f"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9a969bc-a01b-4d08-85b3-28df414aa5b2")
+		(property "Reference" "#PWR016"
+			(at 68.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 70.612 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17ccedb2-1dec-4bca-8329-879bd396004c")
+		)
+		(instances
+			(project "pcb_v0"
+				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a/edb8a1e0-3dab-4dee-8a74-bfb1d844df9f"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
