@@ -1,9 +1,7 @@
 {
-	"idf.portWin": "COM9",
-	"idf.customExtraVars": {
-		"IDF_TARGET": "esp32c3"
+	"files.associations": {
+		"pwm_gen.h": "c",
+		"ledc.h": "c",
+		"rmt.h": "c"
 	},
-	"idf.openOcdConfigs": [
-		"board/esp32c3-builtin.cfg"
-	]
 }
