@@ -1,6 +1,6 @@
 :toc:
 
-= ESP-IDF
+= Software toolchain setup
 Kadwalon Lobet, Guillaume de Maricourt.
 
 ESP-IDF is a software development kit (SDK) provided by ESP to access all of it's toolchain : debug, flash, build and so on. +
@@ -10,10 +10,30 @@ You should run it when your computer is available for about 10 to 20 minutes.
 WARNING: Max and Linux architectures  are not covered by this documentation. +
 Please refer to the link:https://docs.espressif.com/projects/vscode-esp-idf-extension/en/latest/installation.html[official documentation].
 
-== Hardware important note
-Debug is stable only if you connect IO8 to 3.3V. Please ensure this is done before tester debug.
+== Code formatting using uncrustify
+
+Uncrustify is a code formatter. +
+Copy link:tools/uncrustify.exe[uncrustify executable] and place into the desired folder.
+
+Open VS Code and run this command strock ``ctrl+maj+p``. +
+Type "Preferences: Open user settings (JSON)". +
+Navigate to the end of this file and add the following lines (or replace them, if already set by the extension).
+
+[JSON, title=Required lines]
+```
+    "uncrustify.executablePath.windows": "X:\\path\\to\\uncrustify.exe",
+    "uncrustify.configPath.windows": "uncrustify.cfg",
+```
+
+You can then setop ``uncrustify`` as your default code formatter for C/C++.
+
+WARNING: You can set uncrustify path pointing to the tools folder. However we strongly advise to not do so because you will lose support once you delete it.
 
 == ESP-IDF setup using default installer
+
+=== Hardware important note
+Debug is stable only if you connect IO8 to 3.3V. Please ensure this is done before tester debug.
+
 === Default setup
 First follow the link:https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/windows-setup.html[documentation] for installing this SDK. You can either use the link:https://dl.espressif.com/dl/esp-idf/?idf=4.4[online installer or the offline installer].
 
