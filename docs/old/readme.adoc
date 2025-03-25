@@ -1,0 +1,11 @@
+= Girouette
+Guillaume de Maricourt, Kadwalon Lobet
+:toc:
+== Dependencies (software)
+To edit `something.drawio` diagrams (in link:/docs[docs] folder for instance), you will need to install link:https://www.drawio.com/[drawio].
+
+== Setup the repository
+
+== Run unit tests
+
+== Knows issues
