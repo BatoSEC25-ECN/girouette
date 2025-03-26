@@ -1,7 +1,0 @@
-{
-	"files.associations": {
-		"pwm_gen.h": "c",
-		"ledc.h": "c",
-		"rmt.h": "c"
-	},
-}
