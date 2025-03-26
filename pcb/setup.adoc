@@ -1,11 +1,16 @@
 = Kicad
 Kadwalon Lobet, Guillaume de Maricourt.
 
-This project uses fusion 360 as CAD software. +
+This project uses Kicad as CAD software. +
 To setup this tool, download link:https://www.kicad.org/download/[kicad] here. +
 Follow the installation process.
 
 All of the subfolder follow the below folder architecture, ``project_name/project_name.kicad_pro``.
 
-``orders`` folder is the only exception. +
-This folder is a summary to send to teachers (price, quantity, source) in order to order required components.
+The ``orders`` folder is the only exception. +
+This folder is a summary of the orders for teachers which includes :
+
+ - Components
+ - Price
+ - Quantity
+ - Source

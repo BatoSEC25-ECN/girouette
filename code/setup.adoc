@@ -15,6 +15,9 @@ Please refer to the link:https://docs.espressif.com/projects/vscode-esp-idf-exte
 Uncrustify is a code formatter. +
 Copy link:tools/uncrustify.exe[uncrustify executable] and place into the desired folder.
 
+NOTE: You will need to copy into each project the link:tools/uncrustify.cfg[uncrustify configuration files] at the root of the folder. +
+This is mandatory to avoid setting absolute path.
+
 Open VS Code and run this command strock ``ctrl+maj+p``. +
 Type "Preferences: Open user settings (JSON)". +
 Navigate to the end of this file and add the following lines (or replace them, if already set by the extension).
@@ -25,14 +28,14 @@ Navigate to the end of this file and add the following lines (or replace them, i
     "uncrustify.configPath.windows": "uncrustify.cfg",
 ```
 
-You can then setop ``uncrustify`` as your default code formatter for C/C++.
+You can then setup ``uncrustify`` as your default code formatter for C/C++.
 
 WARNING: You can set uncrustify path pointing to the tools folder. However we strongly advise to not do so because you will lose support once you delete it.
 
 == ESP-IDF setup using default installer
 
 === Hardware important note
-Debug is stable only if you connect IO8 to 3.3V. Please ensure this is done before tester debug.
+**Debug is stable only** if you connect IO8 to 3.3V. Please ensure this is done before tester debug.
 
 === Default setup
 First follow the link:https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/windows-setup.html[documentation] for installing this SDK. You can either use the link:https://dl.espressif.com/dl/esp-idf/?idf=4.4[online installer or the offline installer].
