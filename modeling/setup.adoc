@@ -1,0 +1,17 @@
+= Fusion 360
+Kadwalon Lobet, Guillaume de Maricourt.
+
+This project uses fusion 360 as CAD software. +
+To setup this tool, enable link:https://www.autodesk.com/fr/products/fusion-360/education[fusion 360 school licence]. +
+Follow the installation process.
+
+Here is a link:https://www.youtube.com/c/CreaDin3D[youtube channel] that makes good tutorial.
+
+All of the subfolder follow the below folder architecture:
+
+- ``topic/3mf/``: Latest 3MF generated files.
+- ``topic/fusion360``: Latest fusion360 project files.
+
+Multiple parts prints, stored in ``3mf`` folder are embedded into a subfolder using the project name.
+
+NOTE: Please follow this convention to keep things simple and ensure consistency.

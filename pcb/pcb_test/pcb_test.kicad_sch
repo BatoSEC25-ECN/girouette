@@ -1,0 +1,143 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 77.47 71.12)
+		(size 31.75 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9635219d-7559-4c87-a3e5-e5896d7438af")
+		(property "Sheetname" "controller"
+			(at 77.47 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 77.47 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb_v0"
+				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 87.63)
+		(size 31.75 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb101bc7-4324-4c12-9718-71e0561db175")
+		(property "Sheetname" "transceiver_output"
+			(at 77.47 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transceiver_output.kicad_sch"
+			(at 77.47 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb_v0"
+				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 87.63)
+		(size 31.75 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "edb8a1e0-3dab-4dee-8a74-bfb1d844df9f")
+		(property "Sheetname" "transceiver_input"
+			(at 114.3 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transceiver_input.kicad_sch"
+			(at 114.3 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb_v0"
+				(path "/a4ba1476-565f-4ee3-b0bb-c20cd60fbb7a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
