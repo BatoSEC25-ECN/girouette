@@ -3,7 +3,7 @@ Kadwalon Lobet, Guillaume de Maricourt.
 
 This project uses fusion 360 as CAD software. +
 To setup this tool, enable link:https://www.autodesk.com/fr/products/fusion-360/education[fusion 360 school licence]. +
-Follow the installation process.
+You can then install fusion from this lin:https://manage.autodesk.com/products/all[page].
 
 Here is a link:https://www.youtube.com/c/CreaDin3D[youtube channel] that makes good tutorial.
 
