@@ -3,19 +3,14 @@
 = Software toolchain setup
 Kadwalon Lobet, Guillaume de Maricourt.
 
-ESP-IDF is a software development kit (SDK) provided by ESP to access all of it's toolchain : debug, flash, build and so on. +
-Both installation (VS Code and local) take quite some time.
-You should run it when your computer is available for about 10 to 20 minutes.
-
-WARNING: Max and Linux architectures  are not covered by this documentation. +
-Please refer to the link:https://docs.espressif.com/projects/vscode-esp-idf-extension/en/latest/installation.html[official documentation].
+This document aims to walk user through setup of required softwares.
 
 == Code formatting using uncrustify
 
 Uncrustify is a code formatter. +
-Copy link:tools/uncrustify.exe[uncrustify executable] and place into the desired folder.
+Copy link:dependencies/uncrustify.exe[uncrustify executable] and place into the desired folder.
 
-NOTE: You will need to copy into each project the link:tools/uncrustify.cfg[uncrustify configuration files] at the root of the folder. +
+NOTE: You will need to copy into each project the link:dependencies/uncrustify.cfg[uncrustify configuration files] at the root of the folder. +
 This is mandatory to avoid setting absolute path.
 
 Open VS Code and run this command strock ``ctrl+maj+p``. +
@@ -32,7 +27,48 @@ You can then setup ``uncrustify`` as your default code formatter for C/C++.
 
 WARNING: You can set uncrustify path pointing to the tools folder. However we strongly advise to not do so because you will lose support once you delete it.
 
+== Python measure tool, automated tests
+
+This tool enable KeySight oscilloscope to run measurements. +
+We leverage those tool to combine :
+- Precision
+- Formatting/display simplicity
+
+NOTE: Since PCB test board has various flaws patched in new version (see changelogs) we use KeySight oscilloscope to bypass them (AOP issue). +
+We made this choice to focus on creating a working proof of concept, hence limiting the potential failing stages.
+
+=== Keysight drivers setup
+This tool rely on numerous tools that need to be setup properly. One of them is Keysight's library and tools (mainly for the embedded drivers).
+
+Execute link:../dependencies/libusb-win32.exe[libusb installer] as administrator and restart your computer.
+Go to link:https://www.keysight.com/find/iolib[keysight download page] and download the following tools:
+
+- IOLS 2024 U2 **Prerequisite**
+- IOLS 2024 U2 **Main**
+
+Exexute those installers as administrator and restart your computer.
+
+NOTE: You must start by executing ``Prerequisite`` installer.
+
+If the installation is successful, run ``Keysight Connection Expert``. +
+Plug the oscilloscope using a USB cable to your computer : it should be detected by the program which means that python will do too.
+
+=== Python dependencies setup
+``main.py`` script and its dependencies use different libraries. You can install them using pip with ``pip install -r requirements.txt``.
+
+=== Run measurements
+To run measurements, connect the device to your computer. Ensure that it is shown in ``Keysight Connection Expert``. +
+Call the script by using ``python main.py``
+
+NOTE: You might have to update device id code. Python script will throw an error and show discovered device if needed.
+
 == ESP-IDF setup using default installer
+ESP-IDF is a software development kit (SDK) provided by ESP to access all of it's toolchain : debug, flash, build and so on. +
+Both installation (VS Code and local) take quite some time.
+You should run it when your computer is available for about 10 to 20 minutes.
+
+WARNING: Max and Linux architectures  are not covered by this documentation. +
+Please refer to the link:https://docs.espressif.com/projects/vscode-esp-idf-extension/en/latest/installation.html[official documentation].
 
 === Hardware important note
 **Debug is stable only** if you connect IO8 to 3.3V. Please ensure this is done before tester debug.
@@ -152,7 +188,7 @@ Navigate to the end of this file and add the following lines (or replace them, i
 
 [JSON, title=Required lines]
 ```
-	"idf.pythonInstallPath": "${env:IDF_TOOLS_PATH}\\tools\\idf-python\\3.11.2\\python.exe",
+"idf.pythonInstallPath": "${env:IDF_TOOLS_PATH}\\tools\\idf-python\\3.11.2\\python.exe",
     "idf.espIdfPathWin": "${env:IDF_PATH}\\v5.4\\esp-idf",
     "idf.toolsPathWin": "${env:IDF_TOOLS_PATH}",
     "idf.gitPathWin": "${env:IDF_TOOLS_PATH}\\tools\\idf-git\\2.39.2\\cmd\\git.exe",
@@ -183,7 +219,7 @@ Navigate to the end of this file and add the following lines (or replace them, i
 
 [JSON, title=Required lines]
 ```
-	"idf.pythonInstallPath": "${env:IDF_TOOLS_PATH}\\tools\\idf-python\\3.11.2\\python.exe",
+"idf.pythonInstallPath": "${env:IDF_TOOLS_PATH}\\tools\\idf-python\\3.11.2\\python.exe",
     "idf.espIdfPathWin": "${env:IDF_PATH}\\v5.4\\esp-idf",
     "idf.toolsPathWin": "${env:IDF_TOOLS_PATH}",
     "idf.gitPathWin": "${env:IDF_TOOLS_PATH}\\tools\\idf-git\\2.39.2\\cmd\\git.exe",
