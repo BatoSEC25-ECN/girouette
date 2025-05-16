@@ -201,13 +201,18 @@ class KeysightDevice:
 
     def save_measures(
         self,
-        folder: str = DEFAULT_OUTPUT_DIR,
-        name: str = DEFAULT_MEAS_NAME,
+        folder: str,
+        name: str,
     ) -> str:
         logger.info("Creating data file from collected measures")
 
         os.makedirs(folder, exist_ok=True)
-        file = os.path.join(folder, f"{name.split(".", 1)[0]}.csv")
+
+        # Normalize file name
+        file = name.lower().replace(" ", "_")
+        csv_file = f"{name.split(".", 1)[0]}.csv"
+
+        file = os.path.join(folder, csv_file)
 
         waveforms = self.waveforms
         with open(file, "w", newline="") as f:

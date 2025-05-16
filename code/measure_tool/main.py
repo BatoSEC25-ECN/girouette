@@ -4,7 +4,7 @@ import logging
 from logger import CustomFormatter
 
 import keysight as ks
-from plotter import comparison_analysis
+from plotter import plot_collected_data
 
 from dataclass import (
     KeysightConfig,
@@ -26,8 +26,6 @@ logger = logging.getLogger(__name__)
 handler = logging.StreamHandler()
 handler.setFormatter(CustomFormatter())
 logging.basicConfig(level=logging.INFO, handlers={handler})
-
-DEVICE_ADDR = "USB0::0x2A8D::0x0396::CN62117346::0::INSTR"
 
 # Create channels
 channel2 = Channel(
@@ -73,23 +71,31 @@ keysight_config = KeysightConfig(
     hor_range_unit=TimeBase.ms,
 )
 
+MEASURES_NAME = [
+    "Test without wind",
+    "Test with wind",
+]
+DEVICE_ADDR = "USB0::0x2A8D::0x0396::CN62117346::0::INSTR"
+OUTPUT_DIR = "measurements"
+
 def main():
+    output_files = []
+
     device = ks.KeysightDevice(keysight_config)
     device.connect(DEVICE_ADDR)
     device.setup()
-    device.capture()
-    device.save_measures(name="test_no_wind")
-    input("Press Enter to continue...")
-    device.capture()
-    device.save_measures(name="test_wind")
+
+    for name in MEASURES_NAME:
+        input(f'Press enter to run next test, named: \n "{name}".')
+
+        device.capture()
+        f = device.save_measures(OUTPUT_DIR, name)
+        output_files.append(f)
+
     device.release()
 
-    comparison_analysis(
-        csv_1="measurements/test_wind.csv",
-        csv_2="measurements/test_no_wind.csv",
-        slot=1,
-        axis=3,
-    )
+    plot_collected_data(OUTPUT_DIR, output_files)
+
 
 if __name__ == "__main__":
     main()
