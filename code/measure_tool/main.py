@@ -9,12 +9,12 @@ from plotter import plot_collected_data
 from dataclass import (
     KeysightConfig,
     Channel,
-    TimeBase,
+    TimeUnit,
     Trigger,
-    TriggerSrc,
+    TriggerSource,
     SlopeType,
-    VoltBase,
-    FreqBase,
+    VoltageUnit,
+    FrequencyUnit,
     ProbeRatio,
 )
 
@@ -31,34 +31,34 @@ logging.basicConfig(level=logging.INFO, handlers={handler})
 channel2 = Channel(
     number=1,
     name="MAX2231",
-    vert_range=5,
-    vert_range_unit=VoltBase.V,
-    probe_ratio=ProbeRatio.RATIO_1,
+    vertical_range=5,
+    vertical_unit=VoltageUnit.V,
+    probe_ratio=ProbeRatio.X1,
 )
 
 channel3 = Channel(
     number=2,
     name="RECEIVER",
-    vert_range=30,
-    vert_range_unit=VoltBase.mV,
-    probe_ratio=ProbeRatio.RATIO_1,
+    vertical_range=30,
+    vertical_unit=VoltageUnit.mV,
+    probe_ratio=ProbeRatio.X1,
 )
 
 channel4 = Channel(
     number=3,
     name="PWM_XIAO",
-    vert_range=2,
-    vert_range_unit=VoltBase.V,
-    probe_ratio=ProbeRatio.RATIO_1,
+    vertical_range=2,
+    vertical_unit=VoltageUnit.V,
+    probe_ratio=ProbeRatio.X1,
 )
 
 
 # Create trigger
 trigger = Trigger(
-    src=TriggerSrc.CHANNEL_3,
+    source=TriggerSource.CHANNEL_3,
     slope=SlopeType.POSITIVE,
     threshold=2,
-    threshold_unit=VoltBase.V,
+    threshold_unit=VoltageUnit.V,
 )
 
 # Create Keysight configuration
@@ -66,9 +66,9 @@ keysight_config = KeysightConfig(
     channels=[channel2, channel3, channel4],
     trigger=trigger,
     frequency=1,
-    frequency_unit=FreqBase.MHz,
-    hor_range=2,
-    hor_range_unit=TimeBase.ms,
+    frequency_unit=FrequencyUnit.MHz,
+    horizontal_range=2,
+    horizontal_unit=TimeUnit.MS,
 )
 
 MEASURES_NAME = [
@@ -88,7 +88,7 @@ def main():
     for name in MEASURES_NAME:
         input(f'Press enter to run next test, named: \n "{name}".')
 
-        device.capture()
+        device.collect()
         f = device.save_measures(OUTPUT_DIR, name)
         output_files.append(f)
 
