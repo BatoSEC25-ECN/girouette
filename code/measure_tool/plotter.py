@@ -12,7 +12,7 @@ from plotly.subplots import make_subplots
 logger = logging.getLogger(__name__)
 
 
-def _get_random_color() -> str:
+def _get_random_color() -> tuple[str, str]:
     """Return a random color from a predefined palette."""
     colors = ["black", "mediumpurple", "orangered", "firebrick", "teal", "olive"]
     return random.choice(colors)
@@ -47,7 +47,7 @@ def build_figure(dataframes: List[pd.DataFrame], filenames: List[str]) -> go.Fig
     )
 
     for index, df in enumerate(dataframes):
-        filename = filenames[index].removesuffix(".csv", "")
+        filename = filenames[index].removesuffix(".csv")
         color = _get_random_color()
 
         for row, col_name in enumerate(column_names[1:], start=1):  # Skip 'Timestamp'
@@ -65,24 +65,37 @@ def build_figure(dataframes: List[pd.DataFrame], filenames: List[str]) -> go.Fig
     fig.update_layout(
         margin=dict(l=30, r=30),
         template="ggplot2",
+        height=1000,
+        title_text="Measurements",
     )
     return fig
 
 
-def plot_collected_data(folder: str, filenames: List[str]) -> None:
+def plot_collected_data(folder: str, filenames: List[str], html_name=None) -> None:
     """
     Plot measurements from CSV files in subplots.
     Each subplot corresponds to a column in the data (excluding 'Timestamp').
     """
+    logger.info("Plotting data from folder: %s", folder)
     csv_paths = []
     for file in filenames:
         if not file.endswith(".csv"):
-            logger.error("File '%s' is not a CSV.", file)
+            logger.error(
+                "File:'%s' is not a CSV file.",
+            )
             sys.exit(-1)
         csv_paths.append(os.path.join(folder, file))
 
     dataframes = [_load_csv_file(path) for path in csv_paths]
     check_df_consistency(dataframes, filenames)
 
+    logger.info("Data loaded successfully. Building figure...")
     fig = build_figure(dataframes, filenames)
     fig.show()
+
+    logger.info("Figure built successfully. Saving to HTML...")
+    if html_name is not None:
+        if not html_name.endswith(".html"):
+            logger.error("File:'%s' is not an html file.", html_name)
+            sys.exit(-1)
+        fig.write_html(os.path.join(folder, html_name))

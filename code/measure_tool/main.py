@@ -26,32 +26,34 @@ handler = logging.StreamHandler()
 handler.setFormatter(CustomFormatter())
 logging.basicConfig(level=logging.INFO, handlers={handler})
 
-# Create channels
-channel2 = Channel(
+channel1 = Channel(
     number=1,
-    name="MAX2231",
-    vertical_range=5,
+    name="EMITTER",
+    vertical_scale=5,
     vertical_unit=VoltageUnit.V,
+    probe_ratio=1,
+)
+
+channel2 = Channel(
+    number=2,
+    name="RCVR_R",
+    vertical_scale=1,
+    vertical_unit=VoltageUnit.V,
+    probe_ratio=0.1,
 )
 
 channel3 = Channel(
-    number=2,
-    name="RECEIVER",
-    vertical_range=30,
-    vertical_unit=VoltageUnit.mV,
-)
-
-channel4 = Channel(
     number=3,
-    name="PWM_XIAO",
-    vertical_range=2,
+    name="RCVR_L",
+    vertical_scale=1,
     vertical_unit=VoltageUnit.V,
+    probe_ratio=0.1,
 )
 
 
 # Create trigger
 trigger = Trigger(
-    source=TriggerSource.CHANNEL_3,
+    source=TriggerSource.CHANNEL_1,
     slope=SlopeType.POSITIVE,
     threshold=2,
     threshold_unit=VoltageUnit.V,
@@ -59,7 +61,8 @@ trigger = Trigger(
 
 # Create Keysight configuration
 keysight_config = KeysightConfig(
-    channels=[channel2, channel3, channel4],
+    # channels=[channel2, channel3, channel4],
+    channels=[channel1, channel2, channel3],
     trigger=trigger,
     frequency=1,
     frequency_unit=FrequencyUnit.MHz,
@@ -71,14 +74,14 @@ MEASURES_NAME = [
     "Test without wind",
     "Test with wind",
 ]
-DEVICE_ADDR = "USB0::0x2A8D::0x0396::CN62117346::0::INSTR"
 OUTPUT_DIR = "measurements"
+
 
 def main():
     output_files = []
 
     device = ks.KeysightDevice(keysight_config)
-    device.connect(DEVICE_ADDR)
+    device.connect()
     device.setup()
 
     for name in MEASURES_NAME:
@@ -90,7 +93,7 @@ def main():
 
     device.release()
 
-    plot_collected_data(OUTPUT_DIR, output_files)
+    plot_collected_data(OUTPUT_DIR, output_files, "measurements.html")
 
 
 if __name__ == "__main__":
