@@ -9,13 +9,12 @@ Supports configuration, data acquisition, and CSV export.
 
 import logging
 import os
-import sys
 import time
 import csv
 from decimal import Decimal
 import pyvisa
 
-from dataclass import KeysightConfig, TimeUnit
+from dataclass import KeysightConfig, TimeUnit, TriggerSource
 
 # Constants
 MAX_CHANNELS = 4
@@ -79,7 +78,9 @@ class KeysightDevice:
         Set up time base, in time/division
         Note: Device has 10 horizontal divisions
         """
-        scale = self.time_to_nr3(self.config.horizontal_range, self.config.horizontal_unit)
+        scale = self.time_to_nr3(
+            self.config.horizontal_range, self.config.horizontal_unit
+        )
         self._write(f":TIMebase:SCALe {scale}")
         self._write(":TIMebase:REFerence LEFT")
         self._write(":TIMebase:POSition 0")
@@ -92,29 +93,32 @@ class KeysightDevice:
 
     def _setup_external_channel(self):
         trig = self.config.trigger
-        self._write(":EXTernal:POSition 0")
-        self._write(":EXTernal:PROBe 1")
-        self._write(f":EXTernal:RANGe {trig.threshold}{trig.threshold_unit.value}")
-        logger.debug("External channel setup done.")
+        if trig.source == TriggerSource.EXTERNAL:
+            self._write(":EXTernal:POSition 0")
+            self._write(":EXTernal:PROBe X1")
+            self._write(f":EXTernal:RANGe {trig.threshold}{trig.threshold_unit.name}")
+            logger.debug("External channel setup done.")
 
     def _setup_channels(self):
         """Set up channels parameters"""
         for ch in self.config.channels:
             self._write(f":CHANnel{ch.number}:COUPling DC")
             self._write(f":CHANnel{ch.number}:UNITs VOLT")
-            self._write(
-                f":CHANnel{ch.number}:SCALe {ch.vertical_range} {ch.vertical_unit.name}"
-            )
-            self._write(
-                f":CHANnel{ch.number}:OFFSet {ch.offset} {ch.offset_unit.value}"
-            )
-            self._write(f":CHANnel{ch.number}:PROBe {ch.probe_ratio.value}")
+
             probe_ratio = self.float_to_nr3(ch.probe_ratio)
             self._write(f":CHANnel{ch.number}:PROBe {probe_ratio}")
+
+            scale_str = self.float_to_nr3(ch.vertical_scale)
+            self._write(f":CHANnel{ch.number}:SCALe {scale_str}{ch.vertical_unit.name}")
+
+            offset_str = self.float_to_nr3(ch.offset)
+            self._write(f":CHANnel{ch.number}:OFFSet {offset_str}{ch.offset_unit.name}")
+
             self._write(f":CHANnel{ch.number}:DISPlay ON")
-            self._write(f":CHANnel{ch.number}:LABel {ch.name}")
-            self._write(f":CHANnel{ch.number}:DISPlay:LABel ON")
+            self._write(f':CHANnel{ch.number}:LABel "{ch.name}"')
             logger.debug(f"Channel{ch.number} setup done.")
+
+        self._write(":DISPlay:LABel ON")
 
     def _setup_trigger(self):
         """Set up trigger parameters"""
@@ -132,7 +136,9 @@ class KeysightDevice:
             self._write(":WAVeform:POINts:MODE NORMal")
 
             # Calculate the number of points based on the horizontal scale and required frequency
-            time_range = 10 * self.config.horizontal_range * self.config.horizontal_unit.value
+            time_range = (
+                10 * self.config.horizontal_range * self.config.horizontal_unit.value
+            )
             freq = self.config.frequency * self.config.frequency_unit.value
             num_points = int(time_range * freq)
             self._write(f":WAVeform:POINts {num_points}")
@@ -152,48 +158,21 @@ class KeysightDevice:
         except Exception as e:
             logger.error("Acquisition error: %s", e)
 
-    def _discover_device(self, rm):
-        """
-        List available devices.
-        If a device is discovered user has the possibility to connect to it instead.
-        """
-        devices = rm.list_resources()
-        if devices:
-            logger.info("Available devices: %s", ", ".join(devices))
-            user_input = (
-                input(f"Would you like to connect to '{devices[0]}' instead? (y/n): ")
-                .strip()
-                .lower()
-            )
-
-            if user_input == "y":
-                try:
-                    self.device = rm.open_resource(devices[0])
-                    self.device.timeout = DEVICE_TIMEOUT
-                    self._reset_device()
-                    logger.info('Connected to "%s"', devices[0])
-                except Exception as e2:
-                    logger.error("Connection to '%s' failed: %s", devices[0], e2)
-                    sys.exit(-1)
-            else:
-                logger.error("User declined connection to suggested device.")
-                sys.exit(-1)
-        else:
-            logger.error("No VISA devices found.")
-            sys.exit(-1)
-
-    def connect(self, address: str):
+    def connect(self, address: str = None):
         """Connect using the provided VISA address."""
         logger.info("Connecting to target device...")
         try:
             rm = pyvisa.ResourceManager()
-            self.device = rm.open_resource(address)
+            if address:
+                self.device = rm.open_resource(address)
+            else:
+                self.device = rm.open_resource(rm.list_resources()[0])
             self.device.timeout = DEVICE_TIMEOUT
+
             self._reset_device()
             logger.info('Connected to "%s"', address)
         except Exception as e:
             logger.error("Connection failed: %s", e)
-            self._discover_device(rm)
 
     def setup(self):
         """Set up the device with provided configuration."""
@@ -248,7 +227,13 @@ class KeysightDevice:
             writer.writerow(header)
 
             min_len = min(len(data) for data in self.waveforms.values())
-            sampling_duration = self.config.horizontal_range * self.config.horizontal_unit.value
+            if min_len == 0:
+                logger.error("No data to save")
+                return ""
+
+            sampling_duration = (
+                self.config.horizontal_range * self.config.horizontal_unit.value
+            )
             time_increment = sampling_duration / min_len
 
             for i in range(min_len - 1):
@@ -258,7 +243,7 @@ class KeysightDevice:
                 ]
                 writer.writerow(row)
         logger.info("Data saved to: %s", file_path)
-        return file_path
+        return safe_name
 
     def release(self):
         """Release the device connection."""
