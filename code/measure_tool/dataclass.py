@@ -36,16 +36,6 @@ class FrequencyUnit(Enum):
     MHz = 1e6
 
 
-class ProbeRatio(Enum):
-    """
-    Probe scale enumeration.
-    Represents probe ratio (either x1 or x10).
-    """
-
-    X1 = "1"
-    X10 = "10"
-
-
 class SlopeType(Enum):
     """Trigger slope enumeration."""
 
@@ -79,7 +69,6 @@ class Channel:
     offset: int = 0
     offset_unit: VoltageUnit = VoltageUnit.V
 
-    probe_ratio: ProbeRatio = ProbeRatio.X1
 
     def __post_init__(self):
         self._validate_channel()
@@ -96,8 +85,6 @@ class Channel:
             raise ValueError("Vertical range must be a positive integer.")
         if not isinstance(self.vertical_unit, VoltageUnit):
             raise ValueError("Invalid vertical unit.")
-        if not isinstance(self.probe_ratio, ProbeRatio):
-            raise ValueError("Invalid probe ratio.")
         if not isinstance(self.offset, int):
             raise ValueError("Offset must be an integer.")
         if not isinstance(self.offset_unit, VoltageUnit):

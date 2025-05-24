@@ -15,7 +15,6 @@ from dataclass import (
     SlopeType,
     VoltageUnit,
     FrequencyUnit,
-    ProbeRatio,
 )
 
 # Create the logger
@@ -33,7 +32,6 @@ channel2 = Channel(
     name="MAX2231",
     vertical_range=5,
     vertical_unit=VoltageUnit.V,
-    probe_ratio=ProbeRatio.X1,
 )
 
 channel3 = Channel(
@@ -41,7 +39,6 @@ channel3 = Channel(
     name="RECEIVER",
     vertical_range=30,
     vertical_unit=VoltageUnit.mV,
-    probe_ratio=ProbeRatio.X1,
 )
 
 channel4 = Channel(
@@ -49,7 +46,6 @@ channel4 = Channel(
     name="PWM_XIAO",
     vertical_range=2,
     vertical_unit=VoltageUnit.V,
-    probe_ratio=ProbeRatio.X1,
 )
 
 
