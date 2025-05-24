@@ -109,6 +109,8 @@ class KeysightDevice:
                 f":CHANnel{ch.number}:OFFSet {ch.offset} {ch.offset_unit.value}"
             )
             self._write(f":CHANnel{ch.number}:PROBe {ch.probe_ratio.value}")
+            probe_ratio = self.float_to_nr3(ch.probe_ratio)
+            self._write(f":CHANnel{ch.number}:PROBe {probe_ratio}")
             self._write(f":CHANnel{ch.number}:DISPlay ON")
             self._write(f":CHANnel{ch.number}:LABel {ch.name}")
             self._write(f":CHANnel{ch.number}:DISPlay:LABel ON")

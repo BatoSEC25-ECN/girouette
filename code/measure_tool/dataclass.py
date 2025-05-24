@@ -69,6 +69,7 @@ class Channel:
     offset: Union[float | int] = 0
     offset_unit: VoltageUnit = VoltageUnit.V
 
+    probe_ratio: Union[float | int] = 1.0
 
     def __post_init__(self):
         self._validate_types()
@@ -87,6 +88,8 @@ class Channel:
             raise TypeError("Offset must be a number.")
         if not isinstance(self.offset_unit, VoltageUnit):
             raise TypeError("Invalid offset unit.")
+        if not isinstance(self.probe_ratio, (int, float)):
+            raise TypeError("Probe ratio must be a number.")
 
     def _validate_values(self):
         if not 1 <= self.number <= 4:
@@ -99,6 +102,8 @@ class Channel:
             raise ValueError("Vertical scale must be positive.")
         if abs(self.offset) > 4 * self.vertical_scale:
             raise ValueError("Offset must be within +/- 4*vertical_scale.")
+        if not 0.1 <= self.probe_ratio <= 10000:
+            raise ValueError("Probe ratio must be between 0.1 and 10000.")
 
 
 @dataclass
