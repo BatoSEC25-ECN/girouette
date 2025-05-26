@@ -35,7 +35,7 @@ def check_df_consistency(dataframes: List[pd.DataFrame], filenames: List[str]) -
             sys.exit(-1)
 
 
-def build_figure(dataframes: List[pd.DataFrame], filenames: List[str]) -> go.Figure:
+def build_figure(dataframes, filenames, marker1_ns=None, marker2_ns=None) -> go.Figure:
     """Create and return a plotly figure with subplots for each column of the dataframes."""
     column_names = dataframes[0].columns.tolist()
     fig = make_subplots(
@@ -62,6 +62,21 @@ def build_figure(dataframes: List[pd.DataFrame], filenames: List[str]) -> go.Fig
                 col=1,
             )
 
+    if marker1_ns is not None:
+        fig.add_vline(
+            x=marker1_ns,
+            line=dict(color="grey", dash="dash"),
+            annotation_text=f"{marker1_ns} ns",
+            annotation_position="top left",
+        )
+    if marker2_ns is not None:
+        fig.add_vline(
+            x=marker2_ns,
+            line=dict(color="grey", dash="dash"),
+            annotation_text=f"{marker2_ns} ns",
+            annotation_position="top right",
+        )
+
     fig.update_layout(
         margin=dict(l=30, r=30),
         template="ggplot2",
@@ -71,7 +86,13 @@ def build_figure(dataframes: List[pd.DataFrame], filenames: List[str]) -> go.Fig
     return fig
 
 
-def plot_collected_data(folder: str, filenames: List[str], html_name=None) -> None:
+def plot_collected_data(
+    folder: str,
+    filenames: List[str],
+    html_name: str = None,
+    marker1_ns: float = None,
+    marker2_ns: float = None,
+) -> None:
     """
     Plot measurements from CSV files in subplots.
     Each subplot corresponds to a column in the data (excluding 'Timestamp').
@@ -90,7 +111,7 @@ def plot_collected_data(folder: str, filenames: List[str], html_name=None) -> No
     check_df_consistency(dataframes, filenames)
 
     logger.info("Data loaded successfully. Building figure...")
-    fig = build_figure(dataframes, filenames)
+    fig = build_figure(dataframes, filenames, marker1_ns, marker2_ns)
     fig.show()
 
     logger.info("Figure built successfully. Saving to HTML...")
