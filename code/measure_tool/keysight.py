@@ -133,7 +133,7 @@ class KeysightDevice:
         """Acquire data from device by waiting for trigger event to be detected."""
         try:
             self._write(":WAVeform:FORMat ASCII")
-            self._write(":WAVeform:POINts:MODE NORMal")
+            self._write(":WAVeform:POINts:MODE MAXimum")
 
             # Calculate the number of points based on the horizontal scale and required frequency
             time_range = (

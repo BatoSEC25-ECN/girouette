@@ -1,8 +1,31 @@
 # pylint: disable = missing-module-docstring, invalid-name
 
 from dataclasses import dataclass
+import logging
 from typing import List, Union
 from enum import Enum
+
+logger = logging.getLogger(__name__)
+
+# Constants for allowed values for waveform points
+# These values shall match the required frequency (`KeysightConfig.frequency`),
+# else a warning will be raised using logger.warning()
+ALLOWED_WAVEFORM_POINTS = [
+    100,
+    250,
+    500,
+    1000,
+    2000,
+    5000,
+    10000,
+    20000,
+    50000,
+    100000,
+    200000,
+    500000,
+    1000000,
+    2000000,
+]
 
 
 class TriggerSource(Enum):
@@ -150,6 +173,28 @@ class KeysightConfig:
     def __post_init__(self):
         self._validate_types()
         self._validate_values()
+
+        # Compute how many points to extract based on provided time/frequency
+        time_range_sec = 10 * self.horizontal_range * self.horizontal_unit.value
+        freq_hz = self.frequency * self.frequency_unit.value
+        desired_points = int(time_range_sec * freq_hz)
+
+        # Warn if it’s not one of the allowed values
+        if desired_points not in ALLOWED_WAVEFORM_POINTS:
+            closest_pts = min(
+            ALLOWED_WAVEFORM_POINTS,
+                key=lambda p: abs(p - desired_points)
+            )
+            actual_freq = closest_pts / time_range_sec
+
+
+            logger.critical(
+                """Requested number of waveform points (%d) is not in allowed set.
+                Number of points will be clamped to closest allowed value: %dpoints, %f """,
+                desired_points,
+                closest_pts,
+                actual_freq
+            )
 
     def _validate_types(self):
         if not isinstance(self.channels, list):
