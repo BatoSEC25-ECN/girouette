@@ -1,4 +1,9 @@
 ########################################################
+# Project specific
+########################################################
+output_meas/
+
+########################################################
 # Software specific
 ########################################################
 # Drawio
@@ -390,8 +395,14 @@ XUNIT_RESULT*.xml
 
 # generated sdkconfig except defaults one for esp32c3
 sdkconfig*
-!sdkconfig.defaults
-!sdkconfig.defaults.esp32c3
 
 # generated debug file
 .gdbinit
+
+########################################################
+# [CUSTOM] Keep files
+########################################################
+!sdkconfig.defaults
+!sdkconfig.defaults.esp32c3
+!code/dependencies/*.exe
+code/measure_tool/measurements
