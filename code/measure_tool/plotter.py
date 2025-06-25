@@ -102,7 +102,7 @@ def plot_collected_data(
     for file in filenames:
         if not file.endswith(".csv"):
             logger.error(
-                "File:'%s' is not a CSV file.",
+                f"File:{file} is not a CSV file.",
             )
             sys.exit(-1)
         csv_paths.append(os.path.join(folder, file))

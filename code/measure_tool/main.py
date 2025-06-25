@@ -1,6 +1,7 @@
 # pylint: disable = missing-module-docstring, missing-function-docstring
 
 import logging
+import time
 from logger import CustomFormatter
 
 import keysight as ks
@@ -29,27 +30,23 @@ logging.basicConfig(level=logging.INFO, handlers={handler})
 channel1 = Channel(
     number=1,
     name="EMITTER",
-    vertical_scale=5,
+    vertical_scale=2,
     vertical_unit=VoltageUnit.V,
-    probe_ratio=1,
 )
 
 channel2 = Channel(
     number=2,
-    name="RCVR_R",
-    vertical_scale=1,
-    vertical_unit=VoltageUnit.V,
-    probe_ratio=0.1,
+    name="RCVR_L",
+    vertical_scale=12.5,
+    vertical_unit=VoltageUnit.mV,
 )
 
 channel3 = Channel(
     number=3,
-    name="RCVR_L",
-    vertical_scale=1,
-    vertical_unit=VoltageUnit.V,
-    probe_ratio=0.1,
+    name="RCVR_R",
+    vertical_scale=50,
+    vertical_unit=VoltageUnit.mV,
 )
-
 
 # Create trigger
 trigger = Trigger(
@@ -78,14 +75,15 @@ OUTPUT_DIR = "measurements"
 
 
 def main():
-    output_files = []
+    output_files = ["test_without_wind.csv", "test_with_wind.csv"]
 
     device = ks.KeysightDevice(keysight_config)
     device.connect()
     device.setup()
 
     for name in MEASURES_NAME:
-        input(f'Press enter to run next test, named: \n "{name}".')
+        time.sleep(4)  # Wait for the device to be ready
+        # input(f'Press enter to run next test, named: \n "{name}".')
 
         device.collect()
         f = device.save_measures(OUTPUT_DIR, name)
