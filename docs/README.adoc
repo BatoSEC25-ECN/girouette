@@ -3,6 +3,29 @@
 = Documentation
 Kadwalon Lobet, Guillaume de Maricourt.
 
+== Project demonstration
+--> link:https://youtu.be/kEfWdj7LG_c[**Full demo available here !! (youtube)**] <--
+
+=== Full video demonstrator
+Full prototpye demonstration, showcasing:
+
+- 3D model test bench animation including PCB.
+- Live acquisition of data using a Keysight oscilloscope.
+- Live display of measured values saved into a csv file.
+
+--> link:../demos/full_demo.mp4[**Full demo available here  !! (embedded in repo)**] <--
+
+image::../demos/full_demo_screenshot.png[Screenshot of the full demo clip]
+
+
+=== Clever bench to optimize probe placement and removal
+3D bench test with moving sensor without probe wiggling.
+
+image::../demos/test_bench_groove_fully_collapsed.png[Fully collapsed rotating plate]
+image::../demos/test_bench_groove_fully_extended.png[Fully extended rotating plate]
+
+- link:../modeling/setup.adoc[Modeling setup file].
+
 == Project description
 Project is a waterproof anemometer, low cost and with decent precision (around 1 m/s sensitivity). +
 Purpose is to use it on a miniaturized, autonomous sail boat.
@@ -34,8 +57,3 @@ When submitting a pull request, ensure that:
 
 NOTE: ``docs/old`` folder is the first draft of a calibration tools. Goals was to assess impact of anemometer relative angle compared to wind plane. This project has been on hold since teachers wanted to make the actual anemometer and not rely on the industrial one. +
 However those documents could be useful in the future and hence are kept.
-
-
-== Theorical concepts
-
-**TODO**
